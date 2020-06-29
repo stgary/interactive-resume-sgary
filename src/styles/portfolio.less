@@ -22,7 +22,52 @@
         .portfolio-icon {
             font-size: 4rem;
             margin-right: 18px;
+            margin-top: 2%;
             color: @grey;
+        }
+    }
+
+    .portfolio-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+
+        .portfolio-title-text {
+            font-size: 4rem;
+            font-family: @alegreya;
+            color: @flat-black
+        }
+    }
+
+    .divider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+
+        .line-break {
+            width: 30%;
+        }
+
+        .down-arrow-icon {
+            font-size: 3rem;
+            color: @flat-black;
+        }
+    }
+
+    .sites-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 3% 3%;
+
+        .ant-card {
+            width: 60%;
+            margin: 0% 5%;
+            box-shadow: 3px 6px 6px 0 #00000052;
         }
     }
 }

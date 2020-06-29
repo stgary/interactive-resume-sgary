@@ -72,12 +72,10 @@ const About = () => {
       <div className='cinfo'>
         <FontAwesomeIcon className='map-icon' icon={faMapMarkerAlt} />
         <span className='location'>Detroit, MI 48226</span>
-        <div className='email-phone'>
-          <FontAwesomeIcon className='mail-icon' icon={faEnvelopeOpen} />
-          <span className='email'>sgary0@protonmail.com</span>
-          <FontAwesomeIcon className='phone-icon' icon={faPhone} />
-          <span className='phone'>(615) 678-3231</span>
-        </div>
+        <FontAwesomeIcon className='mail-icon' icon={faEnvelopeOpen} />
+        <span className='email'>sgary0@protonmail.com</span>
+        <FontAwesomeIcon className='phone-icon' icon={faPhone} />
+        <span className='phone'>(615) 678-3231</span>
       </div>
     </div>
   );
