@@ -133,7 +133,9 @@
 .about-container .profile-cv-follow .cv-download .cv-icons .cv-icon {
   font-size: 2.5rem;
   color: #333333;
-  margin: 10px 20px 10px 30px;
+  margin-right: 10%;
+  margin-left: 24%;
+  margin-bottom: 3%;
 }
 .about-container .profile-cv-follow .cv-download .cv-download-text {
   font-size: 1.75rem;
@@ -144,7 +146,9 @@
 .about-container .profile-cv-follow .github-linkedin .follow-icons .cv-icon {
   font-size: 3rem;
   color: #333333;
-  margin: 10px 20px 10px 20px;
+  margin-right: 10%;
+  margin-left: 15%;
+  margin-bottom: 3%;
 }
 .about-container .profile-cv-follow .github-linkedin .follow-me {
   font-size: 1.75rem;
@@ -169,6 +173,7 @@
 }
 .about-container .divider .diamond-icon {
   font-size: 3rem;
+  color: #333333;
 }
 .about-container .skills-title-text {
   display: flex;

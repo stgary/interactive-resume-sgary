@@ -300,7 +300,7 @@ body {
 }
 .about-container .introduction-container .name {
   font-size: 4rem;
-  color: #333333;
+  color: #636670;
   font-family: 'Alegreya SC', serif;
   margin-bottom: 10px;
 }
@@ -317,8 +317,10 @@ body {
 }
 .about-container .profile-cv-follow .cv-download .cv-icons .cv-icon {
   font-size: 2.5rem;
-  color: #333333;
-  margin: 10px 20px 10px 30px;
+  color: #636670;
+  margin-right: 10%;
+  margin-left: 24%;
+  margin-bottom: 3%;
 }
 .about-container .profile-cv-follow .cv-download .cv-download-text {
   font-size: 1.75rem;
@@ -328,8 +330,10 @@ body {
 }
 .about-container .profile-cv-follow .github-linkedin .follow-icons .cv-icon {
   font-size: 3rem;
-  color: #333333;
-  margin: 10px 20px 10px 20px;
+  color: #636670;
+  margin-right: 10%;
+  margin-left: 15%;
+  margin-bottom: 3%;
 }
 .about-container .profile-cv-follow .github-linkedin .follow-me {
   font-size: 1.75rem;
@@ -340,7 +344,7 @@ body {
 .about-container .profile-cv-follow .profile-pic {
   width: 20%;
   border-radius: 50%;
-  border: 1px solid #333333;
+  border: 1px solid #636670;
   padding: 3px;
 }
 .about-container .divider {
@@ -354,6 +358,7 @@ body {
 }
 .about-container .divider .diamond-icon {
   font-size: 3rem;
+  color: #636670;
 }
 .about-container .skills-title-text {
   display: flex;
@@ -363,7 +368,7 @@ body {
 }
 .about-container .skills-title-text .skills-title {
   font-size: 4rem;
-  color: #333333;
+  color: #636670;
   margin-bottom: 10px;
   font-family: 'Alegreya SC', serif;
 }
@@ -383,7 +388,7 @@ body {
 .about-container .skills .skill {
   font-size: 2rem;
   font-family: 'Average', serif;
-  color: #333333;
+  color: #636670;
 }
 .about-container .gtkm-c {
   display: flex;
@@ -398,7 +403,7 @@ body {
 .about-container .gtkm-c .gtkm-t {
   font-size: 4rem;
   font-family: 'Alegreya SC', serif;
-  color: #333333;
+  color: #636670;
   margin-bottom: 10px;
 }
 .about-container .gtkm-c .gtkm-p {
@@ -417,7 +422,7 @@ body {
 .about-container .ctc .ct {
   font-size: 4rem;
   font-family: 'Alegreya SC', serif;
-  color: #333333;
+  color: #636670;
 }
 .about-container .cinfo {
   border: 1px solid #9f9f9d;
@@ -431,7 +436,7 @@ body {
 }
 .about-container .cinfo .map-icon {
   font-size: 4rem;
-  color: #333333;
+  color: #636670;
   margin-top: 10px;
   margin-bottom: 2%;
 }
@@ -450,7 +455,7 @@ body {
 }
 .about-container .cinfo .email-phone .mail-icon {
   font-size: 2rem;
-  color: #333333;
+  color: #636670;
   margin-right: 1%;
 }
 .about-container .cinfo .email-phone .email {
@@ -460,7 +465,7 @@ body {
 }
 .about-container .cinfo .email-phone .phone-icon {
   font-size: 2rem;
-  color: #333333;
+  color: #636670;
   margin-right: 1%;
   margin-left: 3%;
 }
@@ -479,7 +484,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #141539;
+  background-color: #511010;
   box-shadow: inset -1px 0px 10px 8px rgba(0, 0, 0, 0.2), 3px 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .resume-container .resume-banner .resume-title {
