@@ -129,9 +129,9 @@
   align-items: center;
 }
 .about-container .profile-cv-follow .cv-download .cv-icons .cv-icon {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #333333;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 30px;
 }
 .about-container .profile-cv-follow .cv-download .cv-download-text {
   font-size: 1.75rem;
@@ -168,20 +168,33 @@
 .about-container .divider .diamond-icon {
   font-size: 3rem;
 }
-.about-container .skills {
+.about-container .skills-title-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.about-container .skills .skills-title {
+.about-container .skills-title-text .skills-title {
   font-size: 4rem;
   color: #333333;
   margin-bottom: 10px;
   font-family: 'Alegreya SC', serif;
 }
-.about-container .skills .skills-text {
+.about-container .skills-title-text .skills-text {
   font-size: 2rem;
   color: #9f9f9d;
   font-family: 'Average', serif;
+}
+.about-container .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+.about-container .skills .skill {
+  font-size: 2rem;
+  font-family: 'Average', serif;
+  color: #333333;
 }
