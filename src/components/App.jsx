@@ -3,6 +3,7 @@ import LandingPage from './LandingPage';
 import NavBar from './NavBar';
 import About from './About';
 import Resume from './Resume';
+import Portfolio from './Portfolio';
 // import Footer from './Footer';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         </div>
         <div className='resume-wrapper'>
           <Resume />
+        </div>
+        <div className='portfolio-wrapper'>
+          <Portfolio />
         </div>
       </main>
       {/* <Footer /> */}

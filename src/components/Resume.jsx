@@ -3,7 +3,6 @@ import { Steps } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faFile, 
-  faGem,
   faCode,
   faAngleDoubleDown,
   faTerminal } from '@fortawesome/free-solid-svg-icons'
@@ -38,6 +37,7 @@ const Resume = () => {
           <span className='work-title-text'>My Work Experience</span>
         </div>
         <div className='work'>
+          <FontAwesomeIcon className='code-icon' icon={faCode} />
           <Steps progressDot direction="vertical">
             <Step active={false} title="Clemens Food Group" subTitle='2017-2019' description="Clemens is the fifth largest pork producer in the world. My job consisted of electrical maintenance, PLC programming, device calibration, and project work." />
             <Step title="Vijon Labratories" subTitle='2014-2017' description="Vijon is a mojor manufacturer of cleaning and cosmetic products. My job consisted of electrical maintenance, PLC programming, integration, and installation." />
@@ -45,7 +45,6 @@ const Resume = () => {
             <Step title="Traumasoft" subTitle='2012-2013' description="Traumasoft Built a call intake system for ambulances and web applications. My job consisted of using HTML, CSS, JavaScript, PHP, and MySQL for the design and modification of web applications." />
             <Step title="Challenge MFG" subTitle='2011-2012' description="Challenge Mfg. is an automotive parts manufacturer. My job consisted of electrical maintenance and robotic programming." />
           </Steps>
-          <FontAwesomeIcon className='code-icon' icon={faCode} />
         </div>
       </div>
     </div>

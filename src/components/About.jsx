@@ -5,16 +5,15 @@ import 'antd/dist/antd.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faAddressCard, 
-  faCopy,
-  faFileDownload,
   faMapMarkerAlt,
-  faEnvelope,
-  faPhoneSquare,
-  faAngleDoubleDown,
-  faGem  } from '@fortawesome/free-solid-svg-icons'
+  faEnvelopeOpen,
+  faPhone,
+  faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 import { 
-  faGithubSquare,
-  faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+  faLinkedinIn,
+  faFacebook,
+  faTwitter,
+  faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
   return (
@@ -28,20 +27,15 @@ const About = () => {
         <span className='title'>I am a Web Developer</span>
       </div>
       <div className='profile-cv-follow'>
-        <div className='cv-download'> 
-          <div className='cv-icons'>       
-            <FontAwesomeIcon className='cv-icon' icon={faFileDownload} />
-              <FontAwesomeIcon className='cv-icon' icon={faCopy} />
-          </div>
-          <span className='cv-download-text'>Download / Print</span>
-        </div>
         <img className='profile-pic' src={Profile} alt='profile pic' />
         <div className='github-linkedin'>
-          <div className='follow-icons'>
-            <FontAwesomeIcon className='cv-icon' icon={faGithubSquare} />
+          <div className='icons'>
+            <FontAwesomeIcon className='cv-icon' icon={faGithub} />
             <FontAwesomeIcon className='cv-icon' icon={faLinkedinIn} />
+            <FontAwesomeIcon className='cv-icon' icon={faTwitter} />
+              <FontAwesomeIcon className='cv-icon' icon={faFacebook} />
           </div>
-          <span className='follow-me'>Follow Me On</span>
+          {/* <span className='follow-me'>Follow Me On</span> */}
         </div>
       </div>
       <div className='divider'>
@@ -69,10 +63,6 @@ const About = () => {
         <span className='skill'>HTML/CSS</span>
         <Progress percent={90} />
       </div>
-      <div className='gtkm-c'>
-        <span className='gtkm-t'>Get to know me</span>
-        <p className='gtkm-p'>I have a background in robotic programming, PLC programming, and web development. I am most passionate about web development and I'm currently looking for work as a developer. I spent the past year working on my education and I am ready to re-enter the work force. If you're a hiring manager please contact me below.</p>
-      </div>
       <div className='divider'>
           <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faAngleDoubleDown} /><hr className='line-break' />
       </div>
@@ -83,9 +73,9 @@ const About = () => {
         <FontAwesomeIcon className='map-icon' icon={faMapMarkerAlt} />
         <span className='location'>Detroit, MI 48226</span>
         <div className='email-phone'>
-          <FontAwesomeIcon className='mail-icon' icon={faEnvelope} />
+          <FontAwesomeIcon className='mail-icon' icon={faEnvelopeOpen} />
           <span className='email'>sgary0@protonmail.com</span>
-          <FontAwesomeIcon className='phone-icon' icon={faPhoneSquare} />
+          <FontAwesomeIcon className='phone-icon' icon={faPhone} />
           <span className='phone'>(615) 678-3231</span>
         </div>
       </div>

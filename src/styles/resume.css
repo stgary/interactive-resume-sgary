@@ -180,18 +180,19 @@
 }
 .resume-container .work-container .work .code-icon {
   font-size: 14rem;
-  margin-right: 15%;
+  margin-left: 15%;
   color: #0c4b4f;
 }
 .resume-container .work-container .work .ant-steps {
-  margin-left: 13%;
+  margin-left: 10%;
+  margin-bottom: 5%;
 }
 .resume-container .work-container .work .ant-steps-icon-dot {
   font-size: 2rem;
   background-color: #0c4b4f;
 }
 .resume-container .work-container .work .ant-steps-item-content {
-  width: 70%;
+  width: 75%;
 }
 .resume-container .work-container .work .ant-steps-item-title {
   font-size: 3rem;
