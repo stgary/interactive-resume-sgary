@@ -10,6 +10,7 @@ import {
   faMapMarkerAlt,
   faEnvelope,
   faPhoneSquare,
+  faAngleDoubleDown,
   faGem  } from '@fortawesome/free-solid-svg-icons'
 import { 
   faGithubSquare,
@@ -44,7 +45,7 @@ const About = () => {
         </div>
       </div>
       <div className='divider'>
-          <hr className='line-break' /><FontAwesomeIcon className='diamond-icon' icon={faGem} /><hr className='line-break' />
+          <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faAngleDoubleDown} /><hr className='line-break' />
       </div>
       <div className='skills-title-text'>
         <span className='skills-title'>Main Skills</span>
@@ -73,7 +74,7 @@ const About = () => {
         <p className='gtkm-p'>I have a background in robotic programming, PLC programming, and web development. I am most passionate about web development and I'm currently looking for work as a developer. I spent the past year working on my education and I am ready to re-enter the work force. If you're a hiring manager please contact me below.</p>
       </div>
       <div className='divider'>
-          <hr className='line-break' /><FontAwesomeIcon className='diamond-icon' icon={faGem} /><hr className='line-break' />
+          <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faAngleDoubleDown} /><hr className='line-break' />
       </div>
       <div className='ctc'>
         <span className='ct'>My contact information</span>

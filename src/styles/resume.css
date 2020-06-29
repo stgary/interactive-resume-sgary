@@ -157,7 +157,49 @@
 .resume-container .divider .line-break {
   width: 30%;
 }
-.resume-container .divider .diamond-icon {
+.resume-container .divider .down-arrow-icon {
   font-size: 3rem;
   color: #333333;
+}
+.resume-container .work-container .work-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.resume-container .work-container .work-title .work-title-text {
+  font-size: 4rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+}
+.resume-container .work-container .work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-container .work-container .work .code-icon {
+  font-size: 14rem;
+  margin-right: 15%;
+  color: #0c4b4f;
+}
+.resume-container .work-container .work .ant-steps {
+  margin-left: 13%;
+}
+.resume-container .work-container .work .ant-steps-icon-dot {
+  font-size: 2rem;
+  background-color: #0c4b4f;
+}
+.resume-container .work-container .work .ant-steps-item-content {
+  width: 70%;
+}
+.resume-container .work-container .work .ant-steps-item-title {
+  font-size: 3rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+}
+.resume-container .work-container .work .ant-steps-item-description {
+  font-size: 1.5rem;
+  font-family: 'Average', serif;
+  color: #9f9f9d;
 }
