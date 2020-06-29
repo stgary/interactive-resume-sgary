@@ -92,8 +92,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333333;
-  box-shadow: inset -1px 0px 10px 8px rgba(0, 0, 0, 0.2), 3px 2px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #0c4b4f;
+  box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
 }
 .about-container .about-banner .about-title {
   font-family: 'Abril Fatface', cursive;

@@ -89,7 +89,7 @@
   width: 100%;
   height: 7vh;
   background-color: #333333;
-  box-shadow: 3px 2px 20px 0 rgba(0, 0, 0, 0.58);
+  box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 3px 2px 20px 0 #00000085;
   z-index: 1;
 }
 .nav-container header {

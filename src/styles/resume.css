@@ -92,8 +92,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333333;
-  box-shadow: inset -1px 0px 10px 8px rgba(0, 0, 0, 0.2), 3px 2px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #0c4b4f;
+  box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
 }
 .resume-container .resume-banner .resume-title {
   font-family: 'Abril Fatface', cursive;
@@ -104,4 +104,60 @@
   font-size: 3.25rem;
   margin-right: 18px;
   color: #9f9f9d;
+}
+.resume-container .education .education-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.resume-container .education .education-title .education-text {
+  font-size: 4rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+}
+.resume-container .education .school-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-container .education .school-list .terminal-icon {
+  font-size: 14rem;
+  margin-right: 15%;
+  color: #0c4b4f;
+}
+.resume-container .education .school-list .ant-steps {
+  margin-left: 13%;
+}
+.resume-container .education .school-list .ant-steps-icon-dot {
+  font-size: 2rem;
+  background-color: #0c4b4f;
+}
+.resume-container .education .school-list .ant-steps-item-content {
+  width: 70%;
+}
+.resume-container .education .school-list .ant-steps-item-title {
+  font-size: 3rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+}
+.resume-container .education .school-list .ant-steps-item-description {
+  font-size: 1.5rem;
+  font-family: 'Average', serif;
+  color: #9f9f9d;
+}
+.resume-container .divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.resume-container .divider .line-break {
+  width: 30%;
+}
+.resume-container .divider .diamond-icon {
+  font-size: 3rem;
+  color: #333333;
 }
