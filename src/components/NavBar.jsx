@@ -7,9 +7,10 @@ export default function NavBar() {
         <nav>
           <ul>
             <li>Home</li>
+            <li>About Me</li>
+            <li>Resume</li>
             <li>Portfolio</li>
-            <li>Experiences</li>
-            <li>Skillset</li>
+            <li>Contact</li>
           </ul>
         </nav>
       </header>

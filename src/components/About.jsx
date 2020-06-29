@@ -3,8 +3,10 @@ import Profile from '../img/profilepic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faAddressCard, 
-  faPrint, 
-  faDownload } from '@fortawesome/free-solid-svg-icons'
+  faCopy,
+  faUniversalAccess,
+  faFileDownload,
+  faGem  } from '@fortawesome/free-solid-svg-icons'
 import { 
   faGithubSquare,
   faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -23,10 +25,10 @@ const About = () => {
       <div className='profile-cv-follow'>
         <div className='cv-download'> 
           <div className='cv-icons'>       
-            <FontAwesomeIcon className='cv-icon' icon={faDownload} />
-            <FontAwesomeIcon className='cv-icon' icon={faPrint} />
+            <FontAwesomeIcon className='cv-icon' icon={faFileDownload} />
+              <FontAwesomeIcon className='cv-icon' icon={faCopy} />
           </div>
-          <span className='cv-download-text'>Print/Download</span>
+          <span className='cv-download-text'>Download / Print</span>
         </div>
         <img className='profile-pic' src={Profile} alt='profile pic' />
         <div className='github-linkedin'>
@@ -36,6 +38,13 @@ const About = () => {
           </div>
           <span className='follow-me'>Follow Me</span>
         </div>
+      </div>
+      <div className='divider'>
+          <hr className='line-break' /><FontAwesomeIcon className='diamond-icon' icon={faGem} /><hr className='line-break' />
+      </div>
+      <div className='skills'>
+        <span className='skills-title'>Main Skills</span>
+        <span className='skills-text'>Here are some technologies I am proficient in.</span>
       </div>
     </div>
   );
