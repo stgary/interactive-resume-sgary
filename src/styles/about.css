@@ -111,6 +111,7 @@
   margin: 40px 0px;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5%;
 }
 .about-container .introduction-container .name {
   font-size: 4rem;
@@ -127,6 +128,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
 }
 .about-container .profile-cv-follow .cv-download .cv-icons .cv-icon {
   font-size: 2.5rem;
@@ -160,7 +162,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 5%;
 }
 .about-container .divider .line-break {
   width: 30%;
@@ -197,4 +199,88 @@
   font-size: 2rem;
   font-family: 'Average', serif;
   color: #333333;
+}
+.about-container .gtkm-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15%;
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.about-container .gtkm-c .gtkm-t {
+  font-size: 4rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.about-container .gtkm-c .gtkm-p {
+  font-size: 2rem;
+  width: 90%;
+  color: #9f9f9d;
+  font-family: 'Average', serif;
+  margin-bottom: 10px;
+}
+.about-container .ctc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.about-container .ctc .ct {
+  font-size: 4rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+}
+.about-container .cinfo {
+  border: 1px solid #9f9f9d;
+  width: 65%;
+  margin-left: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.about-container .cinfo .map-icon {
+  font-size: 4rem;
+  color: #333333;
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+.about-container .cinfo .location {
+  font-size: 2rem;
+  color: #9f9f9d;
+  font-family: 'Average', serif;
+  margin-bottom: 2%;
+}
+.about-container .cinfo .email-phone {
+  margin-bottom: 2%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.about-container .cinfo .email-phone .mail-icon {
+  font-size: 2rem;
+  color: #333333;
+  margin-right: 1%;
+}
+.about-container .cinfo .email-phone .email {
+  font-size: 1.5rem;
+  color: #9f9f9d;
+  margin-right: 1%;
+}
+.about-container .cinfo .email-phone .phone-icon {
+  font-size: 2rem;
+  color: #333333;
+  margin-right: 1%;
+  margin-left: 3%;
+}
+.about-container .cinfo .email-phone .phone {
+  font-size: 1.5rem;
+  color: #9f9f9d;
+  margin-right: 1%;
 }

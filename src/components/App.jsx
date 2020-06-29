@@ -2,6 +2,7 @@ import React from 'react';
 import LandingPage from './LandingPage';
 import NavBar from './NavBar';
 import About from './About';
+import Resume from './Resume';
 // import Footer from './Footer';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         </div>
         <div className='about-wrapper'>
           <About />
+        </div>
+        <div className='resume-wrapper'>
+          <Resume />
         </div>
       </main>
       {/* <Footer /> */}

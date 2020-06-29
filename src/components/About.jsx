@@ -7,6 +7,9 @@ import {
   faAddressCard, 
   faCopy,
   faFileDownload,
+  faMapMarkerAlt,
+  faEnvelope,
+  faPhoneSquare,
   faGem  } from '@fortawesome/free-solid-svg-icons'
 import { 
   faGithubSquare,
@@ -64,6 +67,26 @@ const About = () => {
         <Progress percent={90} />
         <span className='skill'>HTML/CSS</span>
         <Progress percent={90} />
+      </div>
+      <div className='gtkm-c'>
+        <span className='gtkm-t'>Get to know me</span>
+        <p className='gtkm-p'>I have a background in robotic programming, PLC programming, and web development. I am most passionate about web development and I'm currently looking for work as a developer. I spent the past year working on my education and I am ready to re-enter the work force. If you're a hiring manager please contact me below.</p>
+      </div>
+      <div className='divider'>
+          <hr className='line-break' /><FontAwesomeIcon className='diamond-icon' icon={faGem} /><hr className='line-break' />
+      </div>
+      <div className='ctc'>
+        <span className='ct'>My contact information</span>
+      </div>
+      <div className='cinfo'>
+        <FontAwesomeIcon className='map-icon' icon={faMapMarkerAlt} />
+        <span className='location'>Detroit, MI 48226</span>
+        <div className='email-phone'>
+          <FontAwesomeIcon className='mail-icon' icon={faEnvelope} />
+          <span className='email'>sgary0@protonmail.com</span>
+          <FontAwesomeIcon className='phone-icon' icon={faPhoneSquare} />
+          <span className='phone'>(615) 678-3231</span>
+        </div>
       </div>
     </div>
   );
