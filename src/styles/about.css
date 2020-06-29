@@ -92,7 +92,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #141539;
+  background-color: #333333;
   box-shadow: inset -1px 0px 10px 8px rgba(0, 0, 0, 0.2), 3px 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-container .about-banner .about-title {
