@@ -334,7 +334,7 @@ body {
   color: #0c4b4f;
 }
 .about-container .profile-cv-follow .profile-pic {
-  width: 25%;
+  width: 20%;
   border-radius: 50%;
   border: 1px solid #0c4b4f;
   padding: 3px;
@@ -479,18 +479,19 @@ body {
   font-family: 'Alegreya SC', serif;
   color: #333333;
 }
+.resume-container .education .education-title .terminal-icon {
+  font-size: 5rem;
+  color: #0c4b4f;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
 .resume-container .education .school-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.resume-container .education .school-list .terminal-icon {
-  font-size: 14rem;
-  margin-right: 15%;
-  color: #0c4b4f;
-}
 .resume-container .education .school-list .ant-steps {
-  margin-left: 13%;
+  margin-left: 25%;
 }
 .resume-container .education .school-list .ant-steps-icon-dot {
   font-size: 2rem;
@@ -526,6 +527,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 5%;
   margin-bottom: 3%;
 }
@@ -534,18 +536,18 @@ body {
   font-family: 'Alegreya SC', serif;
   color: #333333;
 }
+.resume-container .work-container .work-title .code-icon {
+  font-size: 5rem;
+  color: #0c4b4f;
+  margin: 3% 0%;
+}
 .resume-container .work-container .work {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.resume-container .work-container .work .code-icon {
-  font-size: 14rem;
-  margin-left: 15%;
-  color: #0c4b4f;
-}
 .resume-container .work-container .work .ant-steps {
-  margin-left: 10%;
+  margin-left: 25%;
   margin-bottom: 5%;
 }
 .resume-container .work-container .work .ant-steps-icon-dot {
@@ -553,7 +555,7 @@ body {
   background-color: #0c4b4f;
 }
 .resume-container .work-container .work .ant-steps-item-content {
-  width: 75%;
+  width: 70%;
 }
 .resume-container .work-container .work .ant-steps-item-title {
   font-size: 3rem;

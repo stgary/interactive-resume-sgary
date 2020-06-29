@@ -19,6 +19,7 @@ const Resume = () => {
       <div className='education'>
         <div className='education-title'>
           <span className='education-text'>My Education</span>
+          <FontAwesomeIcon className='terminal-icon' icon={faTerminal} />
         </div>
         <div className='school-list'>
           <Steps progressDot direction="vertical">
@@ -26,7 +27,6 @@ const Resume = () => {
             <Step title="KVCC" subTitle='2009-2011' description="Visual Basic, PHP, Programming Logic, HTML, CSS, C#, DataBase/SQL, Web Page Coding, Java Programming, Operating Systems." />
             <Step title="Michigan State University" subTitle='2007-2009' description="Electrical Technology, AC and DC Machines, Automation and Controls, Technical Drawing, Base Electricity, Electrical Wiring I - III." />
           </Steps>
-          <FontAwesomeIcon className='terminal-icon' icon={faTerminal} />
         </div>
       </div>
       <div className='divider'>
@@ -35,9 +35,9 @@ const Resume = () => {
       <div className='work-container'>
         <div className='work-title'>
           <span className='work-title-text'>My Work Experience</span>
+          <FontAwesomeIcon className='code-icon' icon={faCode} />
         </div>
         <div className='work'>
-          <FontAwesomeIcon className='code-icon' icon={faCode} />
           <Steps progressDot direction="vertical">
             <Step active={false} title="Clemens Food Group" subTitle='2017-2019' description="Clemens is the fifth largest pork producer in the world. My job consisted of electrical maintenance, PLC programming, device calibration, and project work." />
             <Step title="Vijon Labratories" subTitle='2014-2017' description="Vijon is a mojor manufacturer of cleaning and cosmetic products. My job consisted of electrical maintenance, PLC programming, integration, and installation." />
