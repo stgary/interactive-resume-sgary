@@ -269,6 +269,10 @@ body {
   font-family: 'Average', serif;
   color: #9f9f9d;
 }
+.nav-container header nav ul li a {
+  text-decoration: none;
+  color: #9f9f9d;
+}
 .about-container {
   width: 100%;
   height: 100%;
@@ -340,8 +344,8 @@ body {
   color: #0c4b4f;
 }
 .about-container .profile-cv-follow .profile-pic {
-  width: 20%;
-  border-radius: 2%;
+  width: 25%;
+  border-radius: 50%;
   border: 1px solid #5f686b;
   padding: 3px;
 }
@@ -679,7 +683,7 @@ body {
   color: #9f9f9d;
   font-family: 'Alegreya SC', serif;
   margin-left: 2%;
-  width: 37%;
+  width: 43%;
   font-size: 2rem;
 }
 .footer-container .footer .fr {

@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="main-container">
+    <div id='home' className="main-container">
       <NavBar />
       <main>
         <div className='landing-wrapper'>

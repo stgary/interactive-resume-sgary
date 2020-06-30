@@ -17,14 +17,14 @@ import {
 
 const About = () => {
   return (
-    <div className='about-container'>
+    <div id='about' className='about-container'>
       <div className='about-banner'>
         <FontAwesomeIcon className='about-icon' icon={faAddressCard} />
         <span className='about-title'>About</span>
       </div>
       <div className='introduction-container'>
-        <span className='name'>My name is Stephen Gary</span>
-        <span className='title'>I am a Web Developer</span>
+        <span className='name'>Stephen Gary</span>
+        <span className='title'>Web Developer</span>
       </div>
       <div className='profile-cv-follow'>
         <img className='profile-pic' src={Profile} alt='profile pic' />
@@ -35,7 +35,6 @@ const About = () => {
             <FontAwesomeIcon className='cv-icon' icon={faTwitter} />
             <FontAwesomeIcon className='cv-icon' icon={faFacebook} />
           </div>
-          {/* <span className='follow-me'>Follow Me On</span> */}
         </div>
       </div>
       <div className='divider'>
@@ -63,7 +62,7 @@ const About = () => {
         <span className='skill'>HTML/CSS</span>
         <Progress percent={90} />
       </div>
-      <div className='divider'>
+      <div id='contact' className='divider'>
           <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faAngleDoubleDown} /><hr className='line-break' />
       </div>
       <div className='ctc'>
@@ -75,7 +74,7 @@ const About = () => {
         <FontAwesomeIcon className='mail-icon' icon={faEnvelopeOpen} />
         <span className='email'>sgary0@protonmail.com</span>
         <FontAwesomeIcon className='phone-icon' icon={faPhone} />
-        <span className='phone'>(615) 678-3231</span>
+        <span  className='phone'>(615) 678-3231</span>
       </div>
     </div>
   );

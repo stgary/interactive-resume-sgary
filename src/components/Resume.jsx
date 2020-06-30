@@ -12,7 +12,7 @@ const { Step }= Steps;
 const Resume = () => {
   return (
     <div className='resume-container'>
-      <div className='resume-banner'>
+      <div id='resume' className='resume-banner'>
         <FontAwesomeIcon className='resume-icon' icon={faFile} />
         <span className='resume-title'>Resume</span>
       </div>

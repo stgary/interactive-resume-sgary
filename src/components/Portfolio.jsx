@@ -10,8 +10,8 @@ const { Meta } = Card;
 
 const Portfolio = () => {
   return (
-    <div className='portfolio-container'>
-      <div className='portfolio-banner'>
+    <div  className='portfolio-container'>
+      <div id='portfolio' className='portfolio-banner'>
         <FontAwesomeIcon className='portfolio-icon' icon={faPaintRoller} />
         <span className='portfolio-title'>Portfolio</span>
       </div>

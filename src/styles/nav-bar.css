@@ -112,3 +112,7 @@
   font-family: 'Average', serif;
   color: #9f9f9d;
 }
+.nav-container header nav ul li a {
+  text-decoration: none;
+  color: #9f9f9d;
+}
