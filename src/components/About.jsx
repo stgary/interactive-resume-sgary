@@ -33,7 +33,7 @@ const About = () => {
             <FontAwesomeIcon className='cv-icon' icon={faGithub} />
             <FontAwesomeIcon className='cv-icon' icon={faLinkedinIn} />
             <FontAwesomeIcon className='cv-icon' icon={faTwitter} />
-              <FontAwesomeIcon className='cv-icon' icon={faFacebook} />
+            <FontAwesomeIcon className='cv-icon' icon={faFacebook} />
           </div>
           {/* <span className='follow-me'>Follow Me On</span> */}
         </div>
