@@ -605,6 +605,7 @@ body {
 }
 .resume-container .work-container .work .ant-steps-item-content {
   width: 80%;
+  margin-bottom: 10%;
 }
 .resume-container .work-container .work .ant-steps-item-title {
   font-size: 3rem;
