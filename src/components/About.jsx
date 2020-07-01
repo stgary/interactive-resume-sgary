@@ -30,10 +30,18 @@ const About = () => {
         <img className='profile-pic' src={Profile} alt='profile pic' />
         <div className='github-linkedin'>
           <div className='icons'>
-            <FontAwesomeIcon className='cv-icon' icon={faGithub} />
-            <FontAwesomeIcon className='cv-icon' icon={faLinkedinIn} />
-            <FontAwesomeIcon className='cv-icon' icon={faTwitter} />
-            <FontAwesomeIcon className='cv-icon' icon={faFacebook} />
+            <a href='https://github.com/stgary'>
+              <FontAwesomeIcon className='cv-icon' icon={faGithub} />
+            </a>
+            <a href='https://www.linkedin.com/'>
+              <FontAwesomeIcon className='cv-icon' icon={faLinkedinIn} />
+            </a>
+            <a href='https://twitter.com/explore'>
+              <FontAwesomeIcon className='cv-icon' icon={faTwitter} />
+            </a>
+            <a href='https://www.facebook.com/stephen.gary.566'> 
+              <FontAwesomeIcon className='cv-icon' icon={faFacebook} />
+            </a> 
           </div>
         </div>
       </div>

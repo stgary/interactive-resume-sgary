@@ -22,27 +22,33 @@ const Portfolio = () => {
           <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faAngleDoubleDown} /><hr className='line-break' />
       </div>
       <div className='sites-container'>
-        <Card
-          hoverable
-          style={{ width: 600, marginBottom: 50 }}
-          cover={<img alt="example" src={HoodKitchen} />}
-        >
-          <Meta title="The Hood Kitchen" description="https://www.thehoodkitchen.com/" />
-        </Card>
-        <Card
-          hoverable
-          style={{ width: 600, marginBottom: 50 }}
-          cover={<img alt="example" src={BerrienCounty} />}
-        >
-          <Meta title="Berrien County" description="https://berriencounty.org/" />
-        </Card>
-        <Card
-          hoverable
-          style={{ width: 600, marginBottom: 50 }}
-          cover={<img alt="example" src={MedCabinet} />}
-        >
-          <Meta title="Med Cabinet" description="https://marketing-ha7mpeweg.now.sh/" />
-        </Card>
+        <a href='https://www.thehoodkitchen.com/'>
+          <Card
+            hoverable
+            style={{ width: 600, marginBottom: 50 }}
+            cover={<img alt="example" src={HoodKitchen} />}
+          >
+            <Meta title="The Hood Kitchen" description="https://www.thehoodkitchen.com/" />
+          </Card>
+        </a>
+        <a href='https://berriencounty.org/'>        
+          <Card
+            hoverable
+            style={{ width: 600, marginBottom: 50 }}
+            cover={<img alt="example" src={BerrienCounty} />}
+          >
+            <Meta title="Berrien County" description="https://berriencounty.org/" />
+          </Card>
+        </a>
+        <a href='https://marketing-ha7mpeweg.now.sh/'>
+          <Card
+            hoverable
+            style={{ width: 600, marginBottom: 50 }}
+            cover={<img alt="example" src={MedCabinet} />}
+          >
+            <Meta title="Med Cabinet" description="https://marketing-ha7mpeweg.now.sh/" />
+          </Card>
+        </a>
       </div>
     </div>
   );
