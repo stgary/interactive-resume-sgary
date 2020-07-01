@@ -66,7 +66,7 @@
                 margin-left: 20%;
                 margin-top: 5%;
 
-                @media @desktop {
+                @media @phone {
                     width: 85%;
                     margin-left: 7%;
                 }
@@ -79,12 +79,12 @@
         }
 
         .profile-pic {
-            width: 25%;
+            width: 20%;
             border-radius: 50%;
             border: 1px solid #5f686b;
             padding: 3px;
 
-            @media @desktop {
+            @media @phone {
                 width: 50%;
             }
         }
@@ -154,6 +154,10 @@
             font-size: 4rem;
             font-family: @alegreya;
             color: @flat-black;
+
+            @media @phone {
+                font-size: 3rem;
+            }
         }
     }
 
@@ -179,6 +183,10 @@
             color: @grey;
             font-family: @average;
             margin-bottom: 3%;
+
+            @media @phone {
+                font-size: 1.5rem;
+            }
         }
 
         .mail-icon {
@@ -191,6 +199,10 @@
             font-size: 2rem;
             color: @grey;
             margin-bottom: 3%;
+
+            @media @phone {
+                font-size: 1.5rem;
+            }
         }
 
         .phone-icon {
@@ -203,7 +215,15 @@
             font-size: 2rem;
             color: @grey;
             margin-bottom: 3%;
+
+            @media @phone {
+                font-size: 1.5rem;
+            }
         }
 
     }
+}
+
+.ant-progress-bg {
+    background-color: @blue;
 }
