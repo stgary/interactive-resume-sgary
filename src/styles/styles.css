@@ -239,9 +239,10 @@ body {
   width: 20%;
   font-family: 'Abril Fatface', cursive;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .landing-page-container .hero-text {
     font-size: 8rem;
+    margin-bottom: 20%;
   }
 }
 .nav-container {
@@ -338,7 +339,7 @@ body {
   margin-left: 20%;
   margin-top: 5%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .profile-cv-follow .github-linkedin .icons {
     width: 85%;
     margin-left: 7%;
@@ -354,7 +355,7 @@ body {
   border: 1px solid #5f686b;
   padding: 3px;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .profile-cv-follow .profile-pic {
     width: 50%;
   }
@@ -413,7 +414,7 @@ body {
   font-family: 'Alegreya SC', serif;
   color: #333333;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .ctc .ct {
     font-size: 3rem;
   }
@@ -440,7 +441,7 @@ body {
   font-family: 'Average', serif;
   margin-bottom: 3%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .cinfo .location {
     font-size: 1.5rem;
   }
@@ -455,7 +456,7 @@ body {
   color: #9f9f9d;
   margin-bottom: 3%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .cinfo .email {
     font-size: 1.5rem;
   }
@@ -470,7 +471,7 @@ body {
   color: #9f9f9d;
   margin-bottom: 3%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .cinfo .phone {
     font-size: 1.5rem;
   }
@@ -526,26 +527,21 @@ body {
   align-items: center;
 }
 .resume-container .education .school-list .ant-steps {
-  margin-left: 25%;
-}
-@media (max-width: 470px) {
-  .resume-container .education .school-list .ant-steps {
-    margin-left: 15%;
-  }
+  margin-left: 15%;
 }
 .resume-container .education .school-list .ant-steps-icon-dot {
   font-size: 2rem;
   background-color: #0c4b4f;
 }
 .resume-container .education .school-list .ant-steps-item-content {
-  width: 70%;
+  width: 80%;
 }
 .resume-container .education .school-list .ant-steps-item-title {
   font-size: 3rem;
   font-family: 'Alegreya SC', serif;
   color: #333333;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .resume-container .education .school-list .ant-steps-item-title {
     font-size: 2rem;
   }
@@ -559,7 +555,7 @@ body {
   font-family: 'Average', serif;
   color: #9f9f9d;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .resume-container .education .school-list .ant-steps-item-description {
     font-size: 1rem;
   }
@@ -601,27 +597,21 @@ body {
   align-items: center;
 }
 .resume-container .work-container .work .ant-steps {
-  margin-left: 25%;
-  margin-bottom: 5%;
-}
-@media (max-width: 470px) {
-  .resume-container .work-container .work .ant-steps {
-    margin-left: 15%;
-  }
+  margin-left: 15%;
 }
 .resume-container .work-container .work .ant-steps-icon-dot {
   font-size: 2rem;
   background-color: #0c4b4f;
 }
 .resume-container .work-container .work .ant-steps-item-content {
-  width: 70%;
+  width: 80%;
 }
 .resume-container .work-container .work .ant-steps-item-title {
   font-size: 3rem;
   font-family: 'Alegreya SC', serif;
   color: #333333;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .resume-container .work-container .work .ant-steps-item-title {
     font-size: 2rem;
   }
@@ -635,7 +625,7 @@ body {
   font-family: 'Average', serif;
   color: #9f9f9d;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .resume-container .work-container .work .ant-steps-item-description {
     font-size: 1rem;
   }
