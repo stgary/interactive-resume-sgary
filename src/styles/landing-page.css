@@ -99,8 +99,9 @@
   width: 20%;
   font-family: 'Abril Fatface', cursive;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .landing-page-container .hero-text {
     font-size: 8rem;
+    margin-bottom: 20%;
   }
 }
