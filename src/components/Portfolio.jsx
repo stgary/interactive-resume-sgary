@@ -44,7 +44,7 @@ const Portfolio = () => {
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="med cabinet" src={MedCabinet} />}
         >
-          <a href='https://marketing-ha7mpeweg.now.sh/'> <Meta title="Med Cabinet" description="https://marketing-ha7mpeweg.now.sh/" /></a>
+          <a href='https://marketing.stgary01.now.sh/'> <Meta title="Med Cabinet" description="https://marketing.stgary01.now.sh/" /></a>
         </Card>
         <Card
           hoverable
