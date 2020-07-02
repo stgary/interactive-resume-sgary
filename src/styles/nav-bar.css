@@ -131,8 +131,7 @@
 .nav-container header nav .menu .drawer-container .ant-btn .anticon svg {
   display: inline-block;
   font-size: 2rem;
-  margin-top: 25%;
-  margin-left: -13%;
+  margin-top: 5px;
 }
 @media (max-width: 500px) {
   .nav-container header nav .nav-logo {
