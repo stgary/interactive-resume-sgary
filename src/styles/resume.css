@@ -155,6 +155,12 @@
 .resume-container .education .school-list .ant-steps-item-title .ant-steps-item-subtitle {
   margin-left: 0px;
   display: flex;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .resume-container .education .school-list .ant-steps-item-title .ant-steps-item-subtitle {
+    font-size: 1.25rem;
+  }
 }
 .resume-container .education .school-list .ant-steps-item-description {
   font-size: 1.5rem;
@@ -225,6 +231,12 @@
 .resume-container .work-container .work .ant-steps-item-title .ant-steps-item-subtitle {
   margin-left: 0px;
   display: flex;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .resume-container .work-container .work .ant-steps-item-title .ant-steps-item-subtitle {
+    font-size: 1.25rem;
+  }
 }
 .resume-container .work-container .work .ant-steps-item-description {
   font-size: 1.5rem;

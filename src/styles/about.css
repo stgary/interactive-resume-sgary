@@ -135,7 +135,9 @@
   font-size: 1.75rem;
   font-family: 'Average', serif;
   color: #9f9f9d;
-  margin: 2% 5%;
+  margin: 2% 10%;
+  line-height: 3rem;
+  width: 400px;
 }
 .about-container .profile-cv-follow .github-linkedin {
   width: 100%;
