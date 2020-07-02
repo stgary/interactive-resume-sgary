@@ -276,8 +276,12 @@ body {
   color: #9f9f9d;
 }
 .nav-container header nav ul li a {
-  text-decoration: none;
   color: #9f9f9d;
+}
+.nav-container header nav ul li a:hover,
+.nav-container header nav ul li a:active {
+  color: #fff;
+  font-size: 1.75rem;
 }
 .about-container {
   width: 100%;
@@ -328,6 +332,12 @@ body {
   align-items: center;
   margin-bottom: 5%;
 }
+.about-container .profile-cv-follow .quote {
+  font-size: 1.75rem;
+  font-family: 'Average', serif;
+  color: #9f9f9d;
+  margin: 2% 5%;
+}
 .about-container .profile-cv-follow .github-linkedin {
   width: 100%;
 }
@@ -355,7 +365,12 @@ body {
   border: 1px solid #5f686b;
   padding: 3px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+  .about-container .profile-cv-follow .profile-pic {
+    width: 35%;
+  }
+}
+@media (max-width: 800px) and (max-width: 500px) {
   .about-container .profile-cv-follow .profile-pic {
     width: 50%;
   }
@@ -482,6 +497,9 @@ body {
 .resume-container {
   width: 100%;
   height: 100%;
+}
+.resume-container .port {
+  height: 7vh;
 }
 .resume-container .resume-banner {
   width: 100%;
@@ -730,32 +748,35 @@ body {
   width: 78%;
 }
 .footer-container .footer {
-  height: 9vh;
   background-color: #333333;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
 }
 .footer-container .footer .footer-name {
   color: #9f9f9d;
   font-family: 'Alegreya SC', serif;
-  margin-left: 2%;
-  width: 50%;
   font-size: 2rem;
+  padding: 0.5%;
 }
 .footer-container .footer .fr {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  padding: 1%;
 }
 .footer-container .footer .fr .footer-icons {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 1.5%;
 }
 .footer-container .footer .fr .footer-icons a .cv-icon {
   font-size: 2.5rem;
   color: #9f9f9d;
-  margin-top: -0.5%;
+  margin-top: 2%;
 }

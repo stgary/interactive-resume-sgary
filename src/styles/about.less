@@ -55,6 +55,13 @@
         align-items: center;
         margin-bottom: 5%;
 
+        .quote {
+            font-size: 1.75rem;
+            font-family: @average;
+            color: @grey;
+            margin: 2% 5%;
+        }
+
         .github-linkedin {
             width: 100%;
 
@@ -84,9 +91,15 @@
             border: 1px solid #5f686b;
             padding: 3px;
 
-            @media @phone {
-                width: 50%;
+            @media @tablet {
+                width: 35%;
+
+                
+                @media @phone {
+                    width: 50%;
+                }
             }
+
         }
 
     }

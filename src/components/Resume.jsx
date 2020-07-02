@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faFile, 
   faCode,
-  faAngleDoubleDown,
+  faChevronDown,
   faTerminal } from '@fortawesome/free-solid-svg-icons'
 
 const { Step }= Steps;
@@ -12,7 +12,7 @@ const { Step }= Steps;
 const Resume = () => {
   return (
     <div className='resume-container'>
-      <div id='resume' className='resume-banner'>
+      <div className='resume-banner'>
         <FontAwesomeIcon className='resume-icon' icon={faFile} />
         <span className='resume-title'>Resume</span>
       </div>
@@ -30,7 +30,7 @@ const Resume = () => {
         </div>
       </div>
       <div className='divider'>
-          <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faAngleDoubleDown} /><hr className='line-break' />
+          <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faChevronDown} /><hr className='line-break' />
       </div>
       <div className='work-container'>
         <div className='work-title'>
@@ -47,6 +47,7 @@ const Resume = () => {
           </Steps>
         </div>
       </div>
+      <div className='port' id='portfolio'></div>
     </div>
   );
 };

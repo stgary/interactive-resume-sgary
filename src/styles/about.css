@@ -131,6 +131,12 @@
   align-items: center;
   margin-bottom: 5%;
 }
+.about-container .profile-cv-follow .quote {
+  font-size: 1.75rem;
+  font-family: 'Average', serif;
+  color: #9f9f9d;
+  margin: 2% 5%;
+}
 .about-container .profile-cv-follow .github-linkedin {
   width: 100%;
 }
@@ -142,7 +148,7 @@
   margin-left: 20%;
   margin-top: 5%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .profile-cv-follow .github-linkedin .icons {
     width: 85%;
     margin-left: 7%;
@@ -158,7 +164,12 @@
   border: 1px solid #5f686b;
   padding: 3px;
 }
-@media (max-width: 470px) {
+@media (max-width: 800px) {
+  .about-container .profile-cv-follow .profile-pic {
+    width: 35%;
+  }
+}
+@media (max-width: 800px) and (max-width: 500px) {
   .about-container .profile-cv-follow .profile-pic {
     width: 50%;
   }
@@ -217,7 +228,7 @@
   font-family: 'Alegreya SC', serif;
   color: #333333;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .ctc .ct {
     font-size: 3rem;
   }
@@ -244,7 +255,7 @@
   font-family: 'Average', serif;
   margin-bottom: 3%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .cinfo .location {
     font-size: 1.5rem;
   }
@@ -259,7 +270,7 @@
   color: #9f9f9d;
   margin-bottom: 3%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .cinfo .email {
     font-size: 1.5rem;
   }
@@ -274,7 +285,7 @@
   color: #9f9f9d;
   margin-bottom: 3%;
 }
-@media (max-width: 470px) {
+@media (max-width: 500px) {
   .about-container .cinfo .phone {
     font-size: 1.5rem;
   }

@@ -10,7 +10,10 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <footer className='footer'>
-      <span className='footer-name'>©Stephen Gary</span>
+        <span className='footer-name'>©Stephen Gary</span>
+        <span className='footer-name'>Detroit, MI</span>
+        <span className='footer-name'>sgary0@protonmail.com</span>
+        <span className='footer-name'>(615) 678-3231</span>
         <div className='fr'>
           <div className='footer-icons'>
           <a href='https://github.com/stgary'>
