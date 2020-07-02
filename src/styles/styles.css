@@ -241,7 +241,7 @@ body {
 }
 @media (max-height: 550px) {
   .landing-page-container .hero-text {
-    font-size: 8rem;
+    font-size: 7rem;
   }
 }
 @media (max-width: 500px) {
