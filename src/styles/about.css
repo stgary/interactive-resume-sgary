@@ -139,6 +139,11 @@
   line-height: 3rem;
   width: 400px;
 }
+@media (max-width: 500px) {
+  .about-container .profile-cv-follow .quote {
+    width: 308px;
+  }
+}
 .about-container .profile-cv-follow .github-linkedin {
   width: 100%;
 }
@@ -202,7 +207,7 @@
   font-family: 'Alegreya SC', serif;
 }
 .about-container .skills-title-text .skills-text {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: #9f9f9d;
   font-family: 'Average', serif;
 }
@@ -211,12 +216,13 @@
   flex-direction: column;
   align-items: flex-start;
   width: 70%;
-  margin-top: 50px;
+  margin-top: 3%;
   margin-left: 15%;
+  padding: 1%;
 }
 .about-container .skills .skill {
   font-size: 2rem;
-  font-family: 'Average', serif;
+  font-family: 'Alegreya SC', serif;
   color: #333333;
 }
 .about-container .ctc {
@@ -236,26 +242,28 @@
   }
 }
 .about-container .cinfo {
-  border: 1px solid #9f9f9d;
   width: 50%;
   margin-left: 25%;
+  border: 1px solid #0c4b4f;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
+  border-radius: 8px;
+  box-shadow: 2px 4px 15px 0px #00000073;
 }
 .about-container .cinfo .map-icon {
   font-size: 3rem;
-  color: #333333;
-  margin-top: 10px;
-  margin-bottom: 3%;
+  color: #0c4b4f;
+  margin-top: 5%;
+  margin-bottom: 1%;
 }
 .about-container .cinfo .location {
   font-size: 2rem;
   color: #9f9f9d;
   font-family: 'Average', serif;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 @media (max-width: 500px) {
   .about-container .cinfo .location {
@@ -264,13 +272,14 @@
 }
 .about-container .cinfo .mail-icon {
   font-size: 3rem;
-  color: #333333;
-  margin-bottom: 3%;
+  color: #0c4b4f;
+  margin-bottom: 1%;
 }
 .about-container .cinfo .email {
   font-size: 2rem;
   color: #9f9f9d;
-  margin-bottom: 3%;
+  font-family: 'Average', serif;
+  margin-bottom: 5%;
 }
 @media (max-width: 500px) {
   .about-container .cinfo .email {
@@ -279,13 +288,14 @@
 }
 .about-container .cinfo .phone-icon {
   font-size: 3rem;
-  color: #333333;
-  margin-bottom: 3%;
+  color: #0c4b4f;
+  margin-bottom: 1%;
 }
 .about-container .cinfo .phone {
   font-size: 2rem;
   color: #9f9f9d;
-  margin-bottom: 3%;
+  font-family: 'Average', serif;
+  margin-bottom: 5%;
 }
 @media (max-width: 500px) {
   .about-container .cinfo .phone {

@@ -120,3 +120,13 @@
   color: #fff;
   font-size: 1.75rem;
 }
+.popover-name {
+  font-size: 3rem;
+  font-family: 'Alegreya SC', serif;
+  color: #333333;
+}
+.popover-item {
+  font-size: 2rem;
+  font-family: 'Average', serif;
+  color: #9f9f9d;
+}

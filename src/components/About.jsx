@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faChevronDown,
   faAddressCard, 
-  faMapMarkerAlt,
-  faEnvelopeOpen,
-  faPhone } from '@fortawesome/free-solid-svg-icons'
+  faGlobeAmericas,
+  faPaperPlane,
+  faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import { 
   faLinkedinIn,
   faFacebook,
@@ -78,11 +78,11 @@ const About = () => {
         <span className='ct'>My contact information</span>
       </div>
       <div className='cinfo'>
-        <FontAwesomeIcon className='map-icon' icon={faMapMarkerAlt} />
+        <FontAwesomeIcon className='map-icon' icon={faGlobeAmericas} />
         <span className='location'>Detroit, MI</span>
-        <FontAwesomeIcon className='mail-icon' icon={faEnvelopeOpen} />
+        <FontAwesomeIcon className='mail-icon' icon={faPaperPlane} />
         <span className='email'>sgary0@protonmail.com</span>
-        <FontAwesomeIcon className='phone-icon' icon={faPhone} />
+        <FontAwesomeIcon className='phone-icon' icon={faMobileAlt} />
         <span  className='phone'>(615) 678-3231</span>
         <div id='resume'></div>
       </div>
