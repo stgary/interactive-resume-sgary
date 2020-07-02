@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Drawer, Button } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
+import { Drawer } from 'antd';
 import Logo from '../img/logo.png';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Menu() {
 
@@ -19,9 +20,7 @@ export default function Menu() {
 
   return (
   <div className='drawer-container'>
-    <Button onClick={showDrawer}>
-        <MenuOutlined className='menu-button' />
-    </Button>
+    <FontAwesomeIcon onClick={showDrawer} className='menu-button' icon={faBars} />
     <Drawer
       title={img}
       placement="top"
