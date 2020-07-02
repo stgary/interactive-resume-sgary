@@ -16,7 +16,7 @@ const Portfolio = () => {
     <div  className='portfolio-container'>
       <div className='portfolio-banner'>
         <FontAwesomeIcon className='portfolio-icon' icon={faPaintRoller} />
-        <span className='portfolio-title'>Portfolio</span>
+        <span className='portfolio'>Portfolio</span>
       </div>
       <div className='portfolio-title'>
         <span className='portfolio-title-text'>Check out my work</span>

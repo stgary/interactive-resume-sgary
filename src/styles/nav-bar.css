@@ -122,6 +122,9 @@
   color: #9f9f9d;
   margin: 3%;
 }
+.nav-container header nav .nav-logo {
+  width: 100%;
+}
 @media (max-width: 650px) {
   .nav-container header nav .nav-logo {
     display: none;

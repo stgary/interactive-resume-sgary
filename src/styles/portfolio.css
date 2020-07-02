@@ -95,7 +95,7 @@
   background-color: #0c4b4f;
   box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
 }
-.portfolio-container .portfolio-banner .portfolio-title {
+.portfolio-container .portfolio-banner .portfolio {
   font-family: 'Abril Fatface', cursive;
   font-size: 5rem;
   color: #9f9f9d;
@@ -103,7 +103,6 @@
 .portfolio-container .portfolio-banner .portfolio-icon {
   font-size: 4rem;
   margin-right: 18px;
-  margin-top: 2%;
   color: #9f9f9d;
 }
 .portfolio-container .portfolio-title {
