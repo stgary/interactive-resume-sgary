@@ -1,39 +1,34 @@
 @import 'variables';
 
-.ant-drawer-content-wrapper {
-    height: 350px;
+.ant-drawer-wrapper-body {
+    background: @flat-black;
 
-    .ant-drawer-wrapper-body {
+    .ant-drawer-header {
+        border-bottom: 1px solid @grey;
         background: @flat-black;
 
-        .ant-drawer-header {
-            border-bottom: 2px solid @grey;
-            background: @flat-black;
-
-            .ant-drawer-title {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-        }
-
-        .ant-drawer-body {
+        .ant-drawer-title {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            line-height: 1.8;
+        }
 
-            a {
-                color: @grey;
-                font-size: 2.5rem;
-                font-family: @average;
-            }
+    }
 
-            a:hover, a:active {
-                color: #fff;
-            }
+    .ant-drawer-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        a {
+            color: @grey;
+            font-size: 2rem;
+            font-family: @average;
+        }
+
+        a:hover, a:active {
+            color: #fff;
         }
     }
 }
