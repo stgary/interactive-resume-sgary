@@ -20,7 +20,7 @@ export default function Menu() {
   return (
   <div className='drawer-container'>
     <Button onClick={showDrawer}>
-        <MenuOutlined />
+        <MenuOutlined className='menu-button' />
     </Button>
     <Drawer
       title={img}
