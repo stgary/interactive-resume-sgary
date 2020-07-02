@@ -98,12 +98,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .ant-drawer-wrapper-body .ant-drawer-body a {
   color: #9f9f9d;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Average', serif;
+  margin-right: 5%;
 }
 .ant-drawer-wrapper-body .ant-drawer-body a:hover,
 .ant-drawer-wrapper-body .ant-drawer-body a:active {

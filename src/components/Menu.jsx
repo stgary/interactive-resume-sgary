@@ -8,7 +8,7 @@ export default function Menu() {
 
   const [visible, setVisible] = useState(false);
   
-  const img = <img src={Logo} alt='logo' /> 
+  const img = <img className='menu-logo' src={Logo} alt='logo' /> 
 
   const showDrawer = () => {
     setVisible(true);
