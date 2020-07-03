@@ -108,10 +108,9 @@
   font-size: 3rem;
   font-family: 'Average', serif;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a span {
-  margin-left: 10%;
+.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
+  margin-right: 25px;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a:hover,
-.ant-drawer-wrapper-body .ant-drawer-body a:active {
+.ant-drawer-wrapper-body .ant-drawer-body a:hover {
   color: #fff;
 }

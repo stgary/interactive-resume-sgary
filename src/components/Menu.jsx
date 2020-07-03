@@ -36,23 +36,23 @@ export default function Menu() {
       onClose={onClose}
       visible={visible}
     > 
-      <a onClick={onClose} href='#home'>
+      <a href='#home'>
       <FontAwesomeIcon className='drawer-icon' icon={faHome} />  
       <span>Home</span>
       </a>
-      <a onClick={onClose} href='#about'>
+      <a href='#about'>
       <FontAwesomeIcon className='drawer-icon' icon={faAddressCard} /> 
         <span>About</span>
       </a>
-      <a onClick={onClose} href='#resume'>
+      <a href='#resume'>
       <FontAwesomeIcon className='drawer-icon' icon={faFile} /> 
         <span>Resume</span>
         </a>
-      <a onClick={onClose} href='#portfolio'>
+      <a href='#portfolio'>
       <FontAwesomeIcon className='drawer-icon' icon={faPaintRoller} /> 
         <span>Portfolio</span>
       </a>
-      <a onClick={onClose} href='#contact'>
+      <a href='#contact'>
         <FontAwesomeIcon className='drawer-icon' icon={faPaperPlane} /> 
         <span>Contact</span>
       </a>
