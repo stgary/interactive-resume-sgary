@@ -11,20 +11,28 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            .menu-logo {
+                width: 100%;
+            }
         }
 
     }
 
     .ant-drawer-body {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
+        line-height: 2;
+        padding: 12px;
 
         a {
             color: @grey;
-            font-size: 2rem;
+            font-size: 3rem;
             font-family: @average;
+
+            span {
+                margin-left: 10%;
+            }
         }
 
         a:hover, a:active {
