@@ -391,7 +391,7 @@ body {
 }
 .nav-container header nav .nav-bar ul li a:hover,
 .nav-container header nav .nav-bar ul li a:active {
-  color: #fff;
+  color: #5a5a5a;
   font-size: 1.75rem;
 }
 .about-container {
@@ -992,5 +992,5 @@ body {
   margin-right: 25px;
 }
 .ant-drawer-wrapper-body .ant-drawer-body a:hover {
-  color: #fff;
+  color: #5a5a5a;
 }
