@@ -7,8 +7,7 @@ import {
   faAddressCard,
   faPaintRoller,
   faFile,
-  faPaperPlane,
-  faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+  faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Menu() {

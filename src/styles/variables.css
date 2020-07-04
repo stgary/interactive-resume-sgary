@@ -145,35 +145,3 @@
   font-display: swap;
   src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
-.ant-drawer-wrapper-body {
-  background: #333333;
-}
-.ant-drawer-wrapper-body .ant-drawer-header {
-  border-bottom: 1px solid #9f9f9d;
-  background: #333333;
-}
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
-  width: 100%;
-}
-.ant-drawer-wrapper-body .ant-drawer-body {
-  display: flex;
-  flex-direction: column;
-  line-height: 2;
-  padding: 12px;
-}
-.ant-drawer-wrapper-body .ant-drawer-body a {
-  color: #9f9f9d;
-  font-size: 3rem;
-  font-family: 'Unica One', cursive;
-}
-.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
-  margin-right: 25px;
-}
-.ant-drawer-wrapper-body .ant-drawer-body a:hover {
-  color: #fff;
-}

@@ -145,35 +145,184 @@
   font-display: swap;
   src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
-.ant-drawer-wrapper-body {
-  background: #333333;
+.resume-container {
+  width: 100%;
+  height: 100%;
 }
-.ant-drawer-wrapper-body .ant-drawer-header {
-  border-bottom: 1px solid #9f9f9d;
-  background: #333333;
+.resume-container .port {
+  height: 7vh;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
+.resume-container .resume-banner {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c4b4f;
+  box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
+}
+.resume-container .resume-banner .resume-title {
+  font-family: 'Unica One', cursive;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #9f9f9d;
+}
+.resume-container .resume-banner .resume-icon {
+  font-size: 3.25rem;
+  margin-right: 18px;
+  color: #9f9f9d;
+}
+.resume-container .education .education-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.resume-container .education .education-title .education-text {
+  font-size: 4rem;
+  font-family: 'Unica One', cursive;
+  color: #333333;
+  font-weight: 900;
+}
+.resume-container .education .education-title .terminal-icon {
+  font-size: 5rem;
+  color: #0c4b4f;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+.resume-container .education .school-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
-  width: 100%;
+.resume-container .education .school-list .ant-steps {
+  margin-left: 15%;
 }
-.ant-drawer-wrapper-body .ant-drawer-body {
-  display: flex;
-  flex-direction: column;
-  line-height: 2;
-  padding: 12px;
+@media (max-width: 500px) {
+  .resume-container .education .school-list .ant-steps {
+    margin-left: 10%;
+  }
 }
-.ant-drawer-wrapper-body .ant-drawer-body a {
-  color: #9f9f9d;
+.resume-container .education .school-list .ant-steps-icon-dot {
+  font-size: 2rem;
+  background-color: #0c4b4f;
+}
+.resume-container .education .school-list .ant-steps-item-content {
+  width: 80%;
+}
+.resume-container .education .school-list .ant-steps-item-title {
   font-size: 3rem;
   font-family: 'Unica One', cursive;
+  color: #333333;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
-  margin-right: 25px;
+@media (max-width: 500px) {
+  .resume-container .education .school-list .ant-steps-item-title {
+    font-size: 2rem;
+  }
 }
-.ant-drawer-wrapper-body .ant-drawer-body a:hover {
-  color: #fff;
+.resume-container .education .school-list .ant-steps-item-title .ant-steps-item-subtitle {
+  margin-left: 0px;
+  display: flex;
+  font-size: 2rem;
+  font-family: 'Crimson Text', serif;
+}
+@media (max-width: 500px) {
+  .resume-container .education .school-list .ant-steps-item-title .ant-steps-item-subtitle {
+    font-size: 1.25rem;
+  }
+}
+.resume-container .education .school-list .ant-steps-item-description {
+  font-size: 1.5rem;
+  font-family: 'Crimson Text', serif;
+  color: #9f9f9d;
+}
+@media (max-width: 500px) {
+  .resume-container .education .school-list .ant-steps-item-description {
+    font-size: 1rem;
+  }
+}
+.resume-container .divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.resume-container .divider .line-break {
+  width: 30%;
+}
+.resume-container .divider .down-arrow-icon {
+  font-size: 3rem;
+  color: #333333;
+}
+.resume-container .work-container .work-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.resume-container .work-container .work-title .work-title-text {
+  font-size: 4rem;
+  font-family: 'Unica One', cursive;
+  color: #333333;
+  font-weight: 900;
+}
+.resume-container .work-container .work-title .code-icon {
+  font-size: 5rem;
+  color: #0c4b4f;
+  margin: 3% 0%;
+}
+.resume-container .work-container .work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-container .work-container .work .ant-steps {
+  margin-left: 15%;
+}
+@media (max-width: 500px) {
+  .resume-container .work-container .work .ant-steps {
+    margin-left: 10%;
+  }
+}
+.resume-container .work-container .work .ant-steps-icon-dot {
+  font-size: 2rem;
+  background-color: #0c4b4f;
+}
+.resume-container .work-container .work .ant-steps-item-content {
+  width: 80%;
+}
+.resume-container .work-container .work .ant-steps-item-title {
+  font-size: 3rem;
+  font-family: 'Unica One', cursive;
+  color: #333333;
+}
+@media (max-width: 500px) {
+  .resume-container .work-container .work .ant-steps-item-title {
+    font-size: 2rem;
+  }
+}
+.resume-container .work-container .work .ant-steps-item-title .ant-steps-item-subtitle {
+  margin-left: 0px;
+  display: flex;
+  font-size: 2rem;
+  font-family: 'Crimson Text', serif;
+}
+@media (max-width: 500px) {
+  .resume-container .work-container .work .ant-steps-item-title .ant-steps-item-subtitle {
+    font-size: 1.25rem;
+  }
+}
+.resume-container .work-container .work .ant-steps-item-description {
+  font-size: 1.5rem;
+  font-family: 'Crimson Text', serif;
+  color: #9f9f9d;
+}
+@media (max-width: 500px) {
+  .resume-container .work-container .work .ant-steps-item-description {
+    font-size: 1rem;
+  }
 }

@@ -145,35 +145,36 @@
   font-display: swap;
   src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
-.ant-drawer-wrapper-body {
-  background: #333333;
+.footer-container .footer {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
 }
-.ant-drawer-wrapper-body .ant-drawer-header {
-  border-bottom: 1px solid #9f9f9d;
-  background: #333333;
+.footer-container .footer .footer-name {
+  color: #9f9f9d;
+  font-family: 'Unica One', cursive;
+  font-size: 2rem;
+  padding: 0.5%;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
+.footer-container .footer .fr {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1%;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
+.footer-container .footer .fr .footer-icons {
   width: 100%;
-}
-.ant-drawer-wrapper-body .ant-drawer-body {
   display: flex;
-  flex-direction: column;
-  line-height: 2;
-  padding: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5%;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a {
+.footer-container .footer .fr .footer-icons a .cv-icon {
+  font-size: 2.5rem;
   color: #9f9f9d;
-  font-size: 3rem;
-  font-family: 'Unica One', cursive;
-}
-.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
-  margin-right: 25px;
-}
-.ant-drawer-wrapper-body .ant-drawer-body a:hover {
-  color: #fff;
+  margin-top: 2%;
 }

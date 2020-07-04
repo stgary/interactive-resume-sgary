@@ -145,35 +145,84 @@
   font-display: swap;
   src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
-.ant-drawer-wrapper-body {
-  background: #333333;
+.nav-container {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  box-shadow: 0px 0px 6px 0 #0000006b;
+  z-index: 1;
 }
-.ant-drawer-wrapper-body .ant-drawer-header {
-  border-bottom: 1px solid #9f9f9d;
-  background: #333333;
+.nav-container header {
+  width: 100%;
+  height: 100%;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
+.nav-container header nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.nav-container header nav .menu {
+  display: none;
+  width: 100%;
+}
+@media (max-width: 650px) {
+  .nav-container header nav .menu {
+    display: block;
+  }
+}
+.nav-container header nav .menu .drawer-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
+.nav-container header nav .menu .drawer-container .menu-button {
+  font-size: 4rem;
+  color: #9f9f9d;
+  margin: 3%;
+}
+.nav-container header nav .nav-logo {
   width: 100%;
 }
-.ant-drawer-wrapper-body .ant-drawer-body {
+@media (max-width: 650px) {
+  .nav-container header nav .nav-logo {
+    display: none;
+  }
+}
+.nav-container header nav .nav-logo .logo-img {
+  width: 220px;
+  margin: 10px;
+}
+.nav-container header nav .nav-bar {
+  width: 100%;
+}
+@media (max-width: 650px) {
+  .nav-container header nav .nav-bar {
+    display: none;
+  }
+}
+.nav-container header nav .nav-bar ul {
   display: flex;
-  flex-direction: column;
-  line-height: 2;
-  padding: 12px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a {
-  color: #9f9f9d;
-  font-size: 3rem;
+.nav-container header nav .nav-bar ul li {
+  font-size: 1.75rem;
   font-family: 'Unica One', cursive;
+  color: #9f9f9d;
+  margin: 25px 10px;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
-  margin-right: 25px;
+.nav-container header nav .nav-bar ul li a {
+  color: #9f9f9d;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a:hover {
+.nav-container header nav .nav-bar ul li a:hover,
+.nav-container header nav .nav-bar ul li a:active {
   color: #fff;
+  font-size: 1.75rem;
 }

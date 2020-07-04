@@ -30,28 +30,28 @@ const Portfolio = () => {
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="the hood kitchen" src={HoodKitchen} />}
         >
-        < a href='https://www.thehoodkitchen.com/'> <Meta title="The Hood Kitchen" description="https://www.thehoodkitchen.com/" /></a>
+        < a href='https://www.thehoodkitchen.com/'> <Meta title="The Hood Kitchen" description='Commercial kitchen and event space rentals. Click to View ' /></a>
         </Card>
         <Card
           hoverable
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="berrien county" src={BerrienCounty} />}
         >
-          <a href='https://berriencounty.org/' ><Meta title="Berrien County" description="https://berriencounty.org/" /></a>
+          <a href='https://berriencounty.org/' ><Meta title="Berrien County" description="County Services, Community Resources. Click to View" /></a>
         </Card>
         <Card
           hoverable
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="med cabinet" src={MedCabinet} />}
         >
-          <a href='https://marketing.stgary01.now.sh/'> <Meta title="Med Cabinet" description="https://marketing.stgary01.now.sh/" /></a>
+          <a href='https://marketing.stgary01.now.sh/'> <Meta title="Med Cabinet" description="Marketing Page for Med Cabinet App. Click to View" /></a>
         </Card>
         <Card
           hoverable
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="login" src={Login} />}
         >
-          <a href='/'> <Meta title="MaterialUI" description="Login page dark theme" /></a>
+          <a href='/'> <Meta title="MaterialUI" description="Login and Sign up page made with MaterialUI" /></a>
         </Card>
       </div>
     </div>

@@ -145,35 +145,31 @@
   font-display: swap;
   src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
-.ant-drawer-wrapper-body {
-  background: #333333;
-}
-.ant-drawer-wrapper-body .ant-drawer-header {
-  border-bottom: 1px solid #9f9f9d;
-  background: #333333;
-}
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
-  width: 100%;
-}
-.ant-drawer-wrapper-body .ant-drawer-body {
+.landing-page-container {
   display: flex;
   flex-direction: column;
-  line-height: 2;
-  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../img/1920.jpg');
+  background-size: cover;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a {
+.landing-page-container .hero-text {
   color: #9f9f9d;
-  font-size: 3rem;
+  font-size: 10rem;
+  margin-right: 70%;
+  margin-bottom: 6%;
+  width: 20%;
   font-family: 'Unica One', cursive;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
-  margin-right: 25px;
+@media (max-height: 550px) {
+  .landing-page-container .hero-text {
+    font-size: 7rem;
+  }
 }
-.ant-drawer-wrapper-body .ant-drawer-body a:hover {
-  color: #fff;
+@media (max-width: 500px) {
+  .landing-page-container .hero-text {
+    font-size: 8rem;
+    margin-bottom: 20%;
+  }
 }

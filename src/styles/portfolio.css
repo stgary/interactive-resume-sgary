@@ -145,35 +145,73 @@
   font-display: swap;
   src: local('Fauna One'), local('FaunaOne-Regular'), url(https://fonts.gstatic.com/s/faunaone/v7/wlpzgwTPBVpjpCuwkuEx2Q.ttf) format('truetype');
 }
-.ant-drawer-wrapper-body {
-  background: #333333;
+.portfolio-container {
+  height: 100%;
+  width: 100%;
 }
-.ant-drawer-wrapper-body .ant-drawer-header {
-  border-bottom: 1px solid #9f9f9d;
-  background: #333333;
-}
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title {
+.portfolio-container .portfolio-banner {
+  width: 100%;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #0c4b4f;
+  box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
 }
-.ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
-  width: 100%;
-}
-.ant-drawer-wrapper-body .ant-drawer-body {
-  display: flex;
-  flex-direction: column;
-  line-height: 2;
-  padding: 12px;
-}
-.ant-drawer-wrapper-body .ant-drawer-body a {
-  color: #9f9f9d;
-  font-size: 3rem;
+.portfolio-container .portfolio-banner .portfolio {
   font-family: 'Unica One', cursive;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #9f9f9d;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
-  margin-right: 25px;
+.portfolio-container .portfolio-banner .portfolio-icon {
+  font-size: 4rem;
+  margin-right: 18px;
+  color: #9f9f9d;
 }
-.ant-drawer-wrapper-body .ant-drawer-body a:hover {
-  color: #fff;
+.portfolio-container .portfolio-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.portfolio-container .portfolio-title .portfolio-title-text {
+  font-size: 4rem;
+  font-family: 'Unica One', cursive;
+  font-weight: 900;
+  color: #333333;
+}
+.portfolio-container .divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+.portfolio-container .divider .line-break {
+  width: 30%;
+}
+.portfolio-container .divider .down-arrow-icon {
+  font-size: 3rem;
+  color: #333333;
+}
+.portfolio-container .sites-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3% 3%;
+}
+.portfolio-container .sites-container .ant-card {
+  width: 60%;
+  margin: 0% 5%;
+  box-shadow: 3px 6px 6px 0 #00000052;
+}
+.ant-card-meta-title {
+  font-family: 'Unica One', cursive;
+  font-size: 2rem;
+}
+.ant-card-meta-description {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
 }

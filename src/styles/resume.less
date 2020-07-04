@@ -18,7 +18,8 @@
         box-shadow: @shadow;
 
         .resume-title {
-            font-family: @fat-face;
+            font-family: @heading;
+            font-weight: 900;
             font-size: 5rem;
             color: @grey;
         }
@@ -41,8 +42,9 @@
 
             .education-text {
                 font-size: 4rem;
-                font-family: @alegreya;
+                font-family: @heading;
                 color: @flat-black;
+                font-weight: 900;
             }
 
             .terminal-icon {
@@ -61,6 +63,10 @@
 
             .ant-steps {
                 margin-left: 15%;
+
+                @media @phone {
+                    margin-left: 10%;
+                }
             }
 
             .ant-steps-icon-dot {
@@ -74,7 +80,7 @@
 
             .ant-steps-item-title {
                 font-size: 3rem;
-                font-family: @alegreya;
+                font-family: @heading;
                 color: @flat-black;
 
                 @media @phone {
@@ -86,6 +92,7 @@
                     font-size: 2rem;
                     display: flex;
                     font-size: 2rem;
+                    font-family: @paragraph;
 
                     @media @phone {
                         font-size: 1.25rem;
@@ -95,7 +102,7 @@
 
             .ant-steps-item-description {
                 font-size: 1.5rem;
-                font-family: @average;
+                font-family: @paragraph;
                 color: @grey;
 
                 @media @phone {
@@ -134,8 +141,9 @@
 
             .work-title-text {
                 font-size: 4rem;
-                font-family: @alegreya;
+                font-family: @heading;
                 color: @flat-black;
+                font-weight: 900;
             }
 
             .code-icon {
@@ -153,6 +161,10 @@
 
             .ant-steps {
                 margin-left: 15%;
+
+                @media @phone {
+                    margin-left: 10%;
+                }
             }
 
             .ant-steps-icon-dot {
@@ -166,7 +178,7 @@
 
             .ant-steps-item-title {
                 font-size: 3rem;
-                font-family: @alegreya;
+                font-family: @heading;
                 color: @flat-black;
 
                 @media @phone {
@@ -177,6 +189,7 @@
                     margin-left: 0px;
                     display: flex;
                     font-size: 2rem;
+                    font-family: @paragraph;
 
                     @media @phone {
                         font-size: 1.25rem;
@@ -186,7 +199,7 @@
 
             .ant-steps-item-description {
                 font-size: 1.5rem;
-                font-family: @average;
+                font-family: @paragraph;
                 color: @grey;
 
                 @media @phone {
