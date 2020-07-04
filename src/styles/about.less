@@ -254,22 +254,25 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin: 5% 0% 5% 0%;
+        align-items: flex-start;
+        margin: 5% 13% 5% 13%;
 
         .get-to-know-title {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: 900;
-            margin-bottom: 2%;
+            margin-bottom: 3%;
             font-family: @heading;
             color: @flat-black;
         }
 
         .get-to-know-paragraph {
-            width: 70%;
             font-family: @paragraph;
             color: @grey;
             font-size: 2rem;
+
+            @media @phone {
+                font-size: 1.5rem;
+            }
         }
     }
 }
