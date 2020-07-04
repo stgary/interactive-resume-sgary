@@ -30,21 +30,21 @@ const Portfolio = () => {
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="the hood kitchen" src={HoodKitchen} />}
         >
-        < a href='https://www.thehoodkitchen.com/'> <Meta title="The Hood Kitchen" description='Commercial kitchen and event space rentals. Click to View ' /></a>
+        < a href='https://www.thehoodkitchen.com/'> <Meta title="The Hood Kitchen" description='©Traumasoft. Click to View ' /></a>
         </Card>
         <Card
           hoverable
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="berrien county" src={BerrienCounty} />}
         >
-          <a href='https://berriencounty.org/' ><Meta title="Berrien County" description="County Services, Community Resources. Click to View" /></a>
+          <a href='https://berriencounty.org/' ><Meta title="Berrien County" description="©Traumasoft. Click to View" /></a>
         </Card>
         <Card
           hoverable
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="med cabinet" src={MedCabinet} />}
         >
-          <a href='https://marketing.stgary01.now.sh/'> <Meta title="Med Cabinet" description="Marketing Page for Med Cabinet App. Click to View" /></a>
+          <a href='https://marketing.stgary01.now.sh/'> <Meta title="Med Cabinet" description="Marketing Page. Click to View" /></a>
         </Card>
         <Card
           hoverable
