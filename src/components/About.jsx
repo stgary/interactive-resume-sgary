@@ -28,7 +28,6 @@ const About = () => {
       </div>
       <div className='profile-cv-follow'>
         <img className='profile-pic' src={Profile} alt='profile pic' />
-        <p className='quote'>I’ve always had a penchant for solving puzzles and problems—especially when it comes to technology.</p>
         <div className='github-linkedin'>
           <div className='icons'>
             <a href='https://github.com/stgary'>
@@ -59,7 +58,7 @@ const About = () => {
         <span className='skill'>React</span>
         <Progress percent={90} />
         <span className='skill'>Redux</span>
-        <Progress percent={60} />
+        <Progress percent={70} />
         <span className='skill'>Java</span>
         <Progress percent={90} />
         <span className='skill'>Spring</span>
@@ -70,6 +69,10 @@ const About = () => {
         <Progress percent={90} />
         <span className='skill'>HTML/CSS</span>
         <Progress percent={90} />
+      </div>
+      <div className='get-to-know-me'>
+        <span className='get-to-know-title'>Get to know me</span>
+        <p className='get-to-know-paragraph'>I’ve always had a penchant for solving puzzles and problems, especially when it comes to technology. I love writing code and I'm always looking to better myself. Feel free to contact me about any opportunities!  </p>
       </div>
       <div id='contact' className='divider'>
           <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faChevronDown} /><hr className='line-break' />
