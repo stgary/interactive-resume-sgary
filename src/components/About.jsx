@@ -23,7 +23,7 @@ const About = () => {
         <span className='about-title'>About</span>
       </div>
       <div className='introduction-container'>
-        <span className='name'>STEPHEN GARY</span>
+        <span className='name'>Stephen Gary</span>
         <span className='title'>Web Developer</span>
       </div>
       <div className='profile-cv-follow'>

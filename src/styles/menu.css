@@ -158,7 +158,7 @@
   align-items: center;
 }
 .ant-drawer-wrapper-body .ant-drawer-header .ant-drawer-title .menu-logo {
-  width: 100%;
+  width: 245px;
 }
 .ant-drawer-wrapper-body .ant-drawer-body {
   display: flex;
@@ -168,8 +168,8 @@
 }
 .ant-drawer-wrapper-body .ant-drawer-body a {
   color: #9f9f9d;
-  font-size: 3rem;
-  font-family: 'Unica One', cursive;
+  font-size: 2.25rem;
+  font-family: 'Playfair Display', serif;
 }
 .ant-drawer-wrapper-body .ant-drawer-body a .drawer-icon {
   margin-right: 25px;
