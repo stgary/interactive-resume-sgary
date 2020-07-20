@@ -94,7 +94,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v34/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/oswald/v35/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Crimson Text';
@@ -159,7 +159,7 @@
   box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
 }
 .about-container .about-banner .about-title {
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 5rem;
   color: #9f9f9d;
@@ -180,7 +180,7 @@
 .about-container .introduction-container .name {
   font-size: 4rem;
   color: #333333;
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   margin-bottom: 10px;
 }
@@ -269,7 +269,7 @@
   font-size: 4rem;
   color: #333333;
   margin-bottom: 10px;
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
 }
 .about-container .skills-title-text .skills-text {
@@ -294,12 +294,13 @@
 .about-container .ctc {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 3%;
 }
 .about-container .ctc .ct {
   font-size: 4rem;
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   color: #333333;
   font-weight: 900;
 }
@@ -307,6 +308,12 @@
   .about-container .ctc .ct {
     font-size: 3rem;
   }
+}
+.about-container .ctc .cm {
+  font-size: 2.5rem;
+  font-family: 'Crimson Text', serif;
+  color: #9f9f9d;
+  margin-top: 2%;
 }
 .about-container .cinfo {
   width: 50%;
@@ -379,7 +386,7 @@
   font-size: 3rem;
   font-weight: 900;
   margin-bottom: 3%;
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   color: #333333;
 }
 .about-container .get-to-know-me .get-to-know-paragraph {

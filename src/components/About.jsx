@@ -59,10 +59,8 @@ const About = () => {
         <Progress percent={90} />
         <span className='skill'>Redux</span>
         <Progress percent={70} />
-        <span className='skill'>Java</span>
-        <Progress percent={90} />
-        <span className='skill'>Spring</span>
-        <Progress percent={90} />
+        <span className='skill'>Node.js</span>
+        <Progress percent={90} /> 
         <span className='skill'>PostgreSQL</span>
         <Progress percent={80} />
         <span className='skill'>LESS</span>
@@ -79,6 +77,7 @@ const About = () => {
       </div>
       <div className='ctc'>
         <span className='ct'>My contact information</span>
+        <span className='cm'>I am willing to relocate</span>
       </div>
       <div className='cinfo'>
         <FontAwesomeIcon className='map-icon' icon={faGlobeAmericas} />

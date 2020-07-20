@@ -7,7 +7,7 @@ import BerrienCounty from '../img/berriencounty.png';
 import MedCabinet from '../img/medcabinet.png';
 import HoodKitchen from '../img/hoodkitchen.png';
 import Login from '../img/login.png';
-import { Card } from 'antd';
+import { Card, Button } from 'antd';
 
 const { Meta } = Card;
 

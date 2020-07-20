@@ -94,7 +94,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/oswald/v34/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/oswald/v35/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Crimson Text';
@@ -159,7 +159,7 @@
   box-shadow: inset 1px 2px 20px 0px rgba(17, 17, 17, 0.62), 0px 0px 6px 0 #0000001c;
 }
 .portfolio-container .portfolio-banner .portfolio {
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   font-size: 5rem;
   color: #9f9f9d;
@@ -178,7 +178,7 @@
 }
 .portfolio-container .portfolio-title .portfolio-title-text {
   font-size: 4rem;
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   color: #333333;
 }
@@ -207,8 +207,11 @@
   margin: 0% 5%;
   box-shadow: 3px 6px 6px 0 #00000052;
 }
+.portfolio-container .sites-container .ant-card-body {
+  display: flex;
+}
 .ant-card-meta-title {
-  font-family: 'Unica One', cursive;
+  font-family: 'Playfair Display', serif;
   font-size: 2rem;
 }
 .ant-card-meta-description {
