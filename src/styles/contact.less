@@ -41,6 +41,22 @@
         }
     }
 
+    .divider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+
+        .line-break {
+            width: 30%;
+        }
+
+        .down-arrow-icon {
+            font-size: 3rem;
+            color: @flat-black;
+        }
+    }
+
     .contact-form {
         width: 78%;
 
@@ -49,15 +65,21 @@
         }
 
         label {
-            font-size: 2rem;
-            color: @grey;
-            font-family: 'Crimson Text', serif
+            font-size: 1.5rem;
+            color: @flat-black;
+            font-family: @playfair;
         }
 
         .ant-btn {
             @media @form {
                 margin-left: -33%;
             }
+        }
+
+        .ant-input {
+            color: @flat-black;
+            font-size: 1.5rem;
+            font-family: @playfair;
         }
     }
 }

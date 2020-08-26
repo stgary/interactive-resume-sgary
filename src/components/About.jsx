@@ -72,7 +72,7 @@ const About = () => {
         <span className='get-to-know-title'>Get to know me</span>
         <p className='get-to-know-paragraph'>I’ve always had a penchant for solving puzzles and problems, especially when it comes to technology. I love writing code and I'm always looking to better myself. Feel free to contact me about any opportunities!  </p>
       </div>
-      <div id='contact' className='divider'>
+      <div className='divider'>
           <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faChevronDown} /><hr className='line-break' />
       </div>
       <div className='ctc'>

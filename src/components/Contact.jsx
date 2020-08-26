@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { Form, Input, Button } from 'antd';
 import axios from 'axios';
 
@@ -23,10 +23,12 @@ const Contact = () => {
     axios
       .post('https://resume-bkend.herokuapp.com/send', values)
       .then(res => {
-        console.log(res);
+        console.log(res.data);
+        alert('Your message has been sent!');
       })
       .catch(err => {
         console.log(err);
+        alert('There was an error sending your message. Please try contacting me be phone or email.')
       });
     form.resetFields();
   };
@@ -39,6 +41,9 @@ const Contact = () => {
       </div>
       <div className='git'>
         <span className='gitwm'>Get in touch with me!</span>
+      </div>
+      <div className='divider'>
+          <hr className='line-break' /><FontAwesomeIcon className='down-arrow-icon' icon={faChevronDown} /><hr className='line-break' />
       </div>
       <div className='contact-form'>
         <Form {...layout} form={form} name="contact-messages" onFinish={onFinish} validateMessages={validateMessages}>

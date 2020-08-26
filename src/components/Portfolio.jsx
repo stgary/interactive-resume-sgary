@@ -13,7 +13,7 @@ const { Meta } = Card;
 
 const Portfolio = () => {
   return (
-    <div  className='portfolio-container'>
+    <div className='portfolio-container'>
       <div className='portfolio-banner'>
         <FontAwesomeIcon className='portfolio-icon' icon={faPaintRoller} />
         <span className='portfolio'>Portfolio</span>
@@ -54,6 +54,7 @@ const Portfolio = () => {
           <a href='/'> <Meta title="MaterialUI" description="Login and Sign up page made with MaterialUI" /></a>
         </Card>
       </div>
+      <div id='contact'></div>
     </div>
   );
 };
