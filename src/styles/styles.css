@@ -948,6 +948,16 @@ body {
     margin-left: 10%;
   }
 }
+.contact-container .contact-form label {
+  font-size: 2rem;
+  color: #9f9f9d;
+  font-family: 'Crimson Text', serif;
+}
+@media (max-width: 575px) {
+  .contact-container .contact-form .ant-btn {
+    margin-left: -33%;
+  }
+}
 .footer-container .footer {
   background-color: #333333;
   display: flex;

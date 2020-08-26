@@ -16,9 +16,11 @@ const validateMessages = {
 };
 
 const Contact = () => {
+  const [form] = Form.useForm();
 
   const onFinish = values => {
     console.log(values);
+    form.resetFields();
   };
 
   return (
@@ -31,7 +33,7 @@ const Contact = () => {
         <span className='gitwm'>Get in touch with me!</span>
       </div>
       <div className='contact-form'>
-        <Form {...layout} name="contact-messages" onFinish={onFinish} validateMessages={validateMessages}>
+        <Form {...layout} form={form} name="contact-messages" onFinish={onFinish} validateMessages={validateMessages}>
           <Form.Item
             name={['user', 'name']}
             label="Name"
