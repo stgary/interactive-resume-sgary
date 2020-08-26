@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { Form, Input, Button } from 'antd';
+import axios from 'axios';
 
 const layout = {
   labelCol: { span: 8, },
@@ -20,6 +21,14 @@ const Contact = () => {
 
   const onFinish = values => {
     console.log(values);
+    axios
+      .post('https://localhost:3002/send', values)
+      .then(res => {
+        console.log(res);
+      })
+      .catch(err => {
+        console.log(err);
+      });
     form.resetFields();
   };
 
@@ -35,28 +44,28 @@ const Contact = () => {
       <div className='contact-form'>
         <Form {...layout} form={form} name="contact-messages" onFinish={onFinish} validateMessages={validateMessages}>
           <Form.Item
-            name={['user', 'name']}
+            name={['name']}
             label="Name"
             rules={[{ required: true, },]}
           >
             <Input />
           </Form.Item>
           <Form.Item
-            name={['user', 'email']}
+            name={['email']}
             label="Email"
             rules={[{ type: 'email', }, { required: true, },]}
           >
             <Input />
           </Form.Item>
           <Form.Item
-            name={['user', 'subject']}
+            name={['subject']}
             label="Subject"
             rules={[{ required: true, },]}
           >
             <Input />
           </Form.Item>
           <Form.Item 
-            name={['user', 'message']} 
+            name={['message']} 
             label="Message"
             rules={[{ required: true, },]}
             >
