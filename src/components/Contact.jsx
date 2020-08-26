@@ -20,7 +20,6 @@ const Contact = () => {
   const [form] = Form.useForm();
 
   const onFinish = values => {
-    console.log(values);
     axios
       .post('https://resume-bkend.herokuapp.com/send', values)
       .then(res => {
