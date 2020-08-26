@@ -40,7 +40,7 @@ const Resume = () => {
         <div className='work'>
           <Steps progressDot direction="vertical">
             <Step active={false} title="Clemens Food Group" subTitle='Electronics Tech. III 2017-2019' description="Clemens is the fifth largest pork producer in the world. My job consisted of electrical maintenance, PLC programming, device calibration, and project work." />
-            <Step title="Vijon Labratories" subTitle='PLC Programmer 2014-2017' description="Vijon is a mojor manufacturer of cleaning and cosmetic products. My job consisted of electrical maintenance, PLC programming, integration, and installation." />
+            <Step title="Vijon Labratories" subTitle='PLC Programmer 2014-2017' description="Vijon is a major manufacturer of cleaning and cosmetic products. My job consisted of electrical maintenance, PLC programming, integration, and installation." />
             <Step title="Benteler Auto" subTitle='Robotic Programmer 2013-2014' description="Benteler is an automotive parts manufacturer. My job consisted of electrical maintenance and robotic programming." />
             <Step title="Traumasoft" subTitle='Web Developer 2012-2013' description="Traumasoft Built a call intake system for ambulances and web applications. My job consisted of using HTML, CSS, and JavaScript for the design and modification of web applications." />
             <Step title="Challenge MFG" subTitle='Robotic Programmer 2011-2012' description="Challenge Mfg. is an automotive parts manufacturer. My job consisted of electrical maintenance and robotic programming." />

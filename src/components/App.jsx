@@ -5,6 +5,7 @@ import About from './About';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
 import Footer from './Footer';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
         <div className='portfolio-wrapper'>
           <Portfolio />
         </div>
-        {/* <div className='contact-wrapper'>
+        <div className='contact-wrapper'>
           <Contact />
-        </div> */}
+        </div>
       </main>
       <Footer />
     </div>
