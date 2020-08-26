@@ -22,7 +22,7 @@ const Contact = () => {
   const onFinish = values => {
     console.log(values);
     axios
-      .post('https://localhost:3002/send', values)
+      .post('https://resume-bkend.herokuapp.com/send', values)
       .then(res => {
         console.log(res);
       })
