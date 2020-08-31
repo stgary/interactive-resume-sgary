@@ -480,7 +480,7 @@ body {
   color: #0c4b4f;
 }
 .about-container .profile-cv-follow .profile-pic {
-  width: 20%;
+  width: 25%;
   border-radius: 50%;
   border: 1px solid #5f686b;
   padding: 3px;
@@ -965,6 +965,9 @@ body {
   font-size: 1.5rem;
   color: #333333;
   font-family: 'Playfair Display', serif;
+}
+.contact-container .contact-form .ant-btn {
+  left: 82.5%;
 }
 @media (max-width: 575px) {
   .contact-container .contact-form .ant-btn {

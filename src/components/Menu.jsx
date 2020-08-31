@@ -35,25 +35,25 @@ export default function Menu() {
       onClose={onClose}
       visible={visible}
     > 
-      <a href='#home'>
-      <FontAwesomeIcon className='drawer-icon' icon={faHome} />  
-      <span>Home</span>
+      <a href='#home' onClick={onClose}>
+        <FontAwesomeIcon className='drawer-icon' icon={faHome} />  
+          <span>Home</span>
       </a>
-      <a href='#about'>
-      <FontAwesomeIcon className='drawer-icon' icon={faAddressCard} /> 
-        <span>About</span>
+      <a href='#about' onClick={onClose}>
+        <FontAwesomeIcon className='drawer-icon' icon={faAddressCard} /> 
+          <span>About</span>
       </a>
-      <a href='#resume'>
-      <FontAwesomeIcon className='drawer-icon' icon={faFile} /> 
-        <span>Resume</span>
-        </a>
-      <a href='#portfolio'>
-      <FontAwesomeIcon className='drawer-icon' icon={faPaintRoller} /> 
-        <span>Portfolio</span>
+      <a href='#resume' onClick={onClose}>
+        <FontAwesomeIcon className='drawer-icon' icon={faFile} /> 
+          <span>Resume</span>
       </a>
-      <a href='#contact'>
+      <a href='#portfolio' onClick={onClose}>
+        <FontAwesomeIcon className='drawer-icon' icon={faPaintRoller} /> 
+          <span>Portfolio</span>
+      </a>
+      <a href='#contact' onClick={onClose}>
         <FontAwesomeIcon className='drawer-icon' icon={faPaperPlane} /> 
-        <span>Contact</span>
+          <span>Contact</span>
       </a>
     </Drawer>
   </div>

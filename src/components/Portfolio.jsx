@@ -1,13 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { 
-  faPaintRoller, 
-  faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faPaintRoller, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import BerrienCounty from '../img/berriencounty.png';
-import MedCabinet from '../img/medcabinet.png';
+import MedCabinet from '../img/medcabinet.jpg';
 import HoodKitchen from '../img/hoodkitchen.png';
 import Login from '../img/login.png';
-import { Card, Button } from 'antd';
+import { Card } from 'antd';
 
 const { Meta } = Card;
 

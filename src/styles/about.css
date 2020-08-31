@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Average Regular'), local('Average-Regular'), url(https://fonts.gstatic.com/s/average/v8/fC1hPYBHe23MxA7rIeI.ttf) format('truetype');
+  src: local('Average Regular'), local('Average-Regular'), url(https://fonts.gstatic.com/s/average/v9/fC1hPYBHe23MxA7rIeI.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Boogaloo';
@@ -136,7 +136,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHeFA.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/cinzel/v10/8vIU7ww63mVu7gtR-kwKxNvkNOjw-jHgTYo.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Fauna One';
@@ -231,7 +231,7 @@
   color: #0c4b4f;
 }
 .about-container .profile-cv-follow .profile-pic {
-  width: 20%;
+  width: 25%;
   border-radius: 50%;
   border: 1px solid #5f686b;
   padding: 3px;
