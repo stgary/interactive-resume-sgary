@@ -23,11 +23,9 @@ const Contact = () => {
     axios
       .post('https://resume-bkend.herokuapp.com/send', values)
       .then(res => {
-        console.log(res.data);
         alert('Your message has been sent! Heroku puts this app in idle, sorry if this message was delayed.');
       })
       .catch(err => {
-        console.log(err);
         alert('There was an error sending your message. Please try contacting me be phone or email.')
       });
     form.resetFields();
