@@ -33,7 +33,7 @@ const About = () => {
             <a href='https://github.com/stgary'>
               <FontAwesomeIcon className='cv-icon' icon={faGithub} />
             </a>
-            <a href='https://www.linkedin.com/'>
+            <a href='https://www.linkedin.com/in/sgary0'>
               <FontAwesomeIcon className='cv-icon' icon={faLinkedinIn} />
             </a>
             <a href='https://twitter.com/explore'>
