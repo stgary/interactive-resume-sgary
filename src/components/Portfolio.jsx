@@ -1,8 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaintRoller, faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import BerrienCounty from '../img/berriencounty.png';
+import { faPaintRoller, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import MedCabinet from '../img/medcabinet.jpg';
+import BerrienCounty from '../img/berriencounty.png';
+import Chat from '../img/Chat.jpg';
 import HoodKitchen from '../img/hoodkitchen.png';
 import Login from '../img/login.png';
 import { Card } from 'antd';
@@ -40,6 +41,12 @@ const Portfolio = () => {
           cover={<img alt="med cabinet" src={MedCabinet} />}
         >
           <a href='https://marketing.stgary01.now.sh/'> <Meta title="Med Cabinet" description="Marketing Page. Click to View" /></a>
+        </Card>
+        <Card
+          style={{ width: 800, marginBottom: 50 }}
+          cover={<img alt="chat app" src={Chat} />}
+        >
+          <a href='https://chatapp.now.sh/'> <Meta title="Realtime Chat Application" description="React, Express, Node and Socket.IO. Click to View" /></a>
         </Card>
         <Card
           style={{ width: 800, marginBottom: 50 }}
