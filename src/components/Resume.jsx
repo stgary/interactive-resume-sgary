@@ -23,7 +23,7 @@ const Resume = () => {
         </div>
         <div className='school-list'>
           <Steps progressDot direction="vertical">
-            <Step active={false} title="Lambda School" subTitle='Bootcamp 2019-2020' description="GitHub, HTML, CSS, LESS, JavaScript, React, Redux, Java, Spring, PostgreSQL, Python, and Computer Science. Live instruction from accredited professionals, Daily projects, Build-Weeks creating apps with cross functional teams." />
+            <Step active={false} title="Lambda School" subTitle='Bootcamp 2019-2020' description="GitHub, HTML, CSS, LESS, JavaScript, React.js, Redux, Node.js, Express.js, PostgreSQL, Python, and Computer Science. Live instruction from accredited professionals, Daily projects, Build-Weeks creating apps with cross functional teams." />
             <Step title="KVCC" subTitle='Computer Science 2009-2011' description="Visual Basic, PHP, Programming Logic, HTML, CSS, C#, DataBase/SQL, Web Page Coding, Java Programming, Operating Systems." />
             <Step title="Michigan State University" subTitle='Electrical Technology 2007-2009' description="AC and DC Machines, Automation and Controls, Technical Drawing, Base Electricity, Electrical Wiring I - III." />
           </Steps>
