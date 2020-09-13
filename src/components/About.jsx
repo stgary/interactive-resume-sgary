@@ -54,19 +54,21 @@ const About = () => {
       </div>
       <div className='skills'>
         <span className='skill'>JavaScript</span>
-        <Progress percent={80} />
-        <span className='skill'>React</span>
-        <Progress percent={90} />
+        <Progress percent={50} />
+        <span className='skill'>React.js</span>
+        <Progress percent={60} />
         <span className='skill'>Redux</span>
-        <Progress percent={70} />
+        <Progress percent={40} />
         <span className='skill'>Node.js</span>
-        <Progress percent={90} /> 
+        <Progress percent={50} />
+        <span className='skill'>Express.js</span>
+        <Progress percent={50} /> 
         <span className='skill'>PostgreSQL</span>
-        <Progress percent={80} />
+        <Progress percent={50} />
         <span className='skill'>LESS</span>
-        <Progress percent={90} />
+        <Progress percent={60} />
         <span className='skill'>HTML/CSS</span>
-        <Progress percent={90} />
+        <Progress percent={60} />
       </div>
       <div className='get-to-know-me'>
         <span className='get-to-know-title'>Get to know me</span>
