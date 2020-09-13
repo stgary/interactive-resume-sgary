@@ -24,7 +24,7 @@ const Contact = () => {
       .post('https://resume-bkend.herokuapp.com/send', values)
       .then(res => {
         console.log(res.data);
-        alert('Your message has been sent!');
+        alert('Your message has been sent! Heroku puts this app in idle, sorry if this message was delayed.');
       })
       .catch(err => {
         console.log(err);
