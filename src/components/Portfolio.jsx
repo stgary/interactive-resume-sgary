@@ -46,7 +46,7 @@ const Portfolio = () => {
           style={{ width: 800, marginBottom: 50 }}
           cover={<img alt="chat app" src={Chat} />}
         >
-          <a href='https://chatapp.now.sh/'> <Meta title="Realtime Chat Application" description="React, Express, Node and Socket.IO. Click to View" /></a>
+          <a href='https://chat-app-kappa.vercel.app/'> <Meta title="Realtime Chat Application" description="React, Express, Node and Socket.IO. Click to View" /></a>
         </Card>
         <Card
           style={{ width: 800, marginBottom: 50 }}
