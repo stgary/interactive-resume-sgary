@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaintRoller, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import MedCabinet from '../img/medcabinet.jpg';
 import BerrienCounty from '../img/berriencounty.png';
-import Chat from '../img/Chat.jpg';
+import Chat from '../img/chat.jpg';
 import HoodKitchen from '../img/hoodkitchen.png';
 import Login from '../img/login.png';
 import { Card } from 'antd';
